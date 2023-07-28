@@ -55,7 +55,7 @@ export default {
   },
 };
 </script>
-<!-- 
+
 <style lang="scss" scoped>
 .pokedex {
   &-information {
@@ -173,4 +173,4 @@ export default {
     height: 90px;
   }
 }
-</style> -->
+</style>

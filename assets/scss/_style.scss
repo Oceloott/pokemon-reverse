@@ -1,0 +1,78 @@
+body{
+    background-color: white;
+    margin: 0 8px;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.full{
+    width: 100%;
+}
+.pokemon-page{
+    margin: 0;
+}
+.text{
+    &--grass {
+        color: var(--grass-secondary);
+    }
+    
+    &--fire {
+        color: var(--fire-secondary);
+    }
+    
+    &--water {
+        color: var(--water-secondary);
+    }
+    
+    &--bug {
+        color: var(--bug-secondary);
+    }
+    
+    &--normal {
+        color: var(--normal-secondary);
+    }
+    
+    &--electric {
+        color: var(--electric-secondary);
+    }
+    
+    &--poison {
+        color: var(--poison-secondary);
+    }
+    
+    &--ground {
+        color: var(--ground-secondary);
+    }
+    
+    &--fighting {
+        color: var(--fighting-secondary);
+    }
+    
+    &--psychic {
+        color: var(--psychic-secondary);
+    }
+    
+    &--fairy {
+        color: var(--fairy-secondary);
+    }
+    
+    &--rock {
+        color: var(--rock-secondary);
+    }
+    
+    &--ghost {
+        color: var(--ghost-secondary);
+    }
+    
+    &--ice {
+        color: var(--ice-secondary);
+    }
+    
+    &--dragon {
+        color: var(--dragon-secondary);
+    }
+    &--flying{
+        color: var(--flying-secondary);
+    }
+}
