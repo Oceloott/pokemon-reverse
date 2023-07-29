@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Nanum";
+    src: url("/fonts/NanumGothic-Bold.ttf") format("ttf");
+    font-weight: bold;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Nanum";
+    src: url("/fonts/NanumGothic-Regular.ttf") format("ttf");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Nanum";
+    src: url("/fonts/NanumGothic-ExtraBold.ttf") format("ttf");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Bold.ttf") format("ttf");
+    font-weight: bold;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.ttf") format("ttf");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

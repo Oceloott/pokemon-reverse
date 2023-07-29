@@ -1,0 +1,137 @@
+:root {
+    --grass: #7ba871;
+    --grass-secondary: #5c7a5e;
+
+    --fire: #dd8557;
+    --fire-secondary: #a15f41;
+
+    --water: #3980ae;
+    --water-secondary: #2b6382;
+
+    --bug: #aab743;
+    --bug-secondary: #7e8c33;
+
+    --normal: #c7c5ac;
+    --normal-secondary: #a69d81;
+
+    --electric: #f3cd38;
+    --electric-secondary: #d2a72e;
+
+    --poison: #9c89b7;
+    --poison-secondary: #7b6b8a;
+
+    --ground: #b29166;
+    --ground-secondary: #8c6c3f;
+
+    --fighting: #7e1938;
+    --fighting-secondary: #5c1424;
+
+    --psychic: #c93d67;
+    --psychic-secondary: #a5274b;
+
+    --fairy: #e19dac;
+    --fairy-secondary: #be7c8a;
+
+    --rock: #a7a06c;
+    --rock-secondary: #827d50;
+
+    --ghost: #846994;
+    --ghost-secondary: #614c65;
+
+    --ice: #a4d6d6;
+    --ice-secondary: #80b4b4;
+
+    --dragon: #9d7ef3;
+    --dragon-secondary: #7458b4;
+
+    --flying-secondary: #4d73a5;
+
+}
+
+.grass {
+    background-color: var(--grass-secondary);
+}
+
+.fire {
+    background-color: var(--fire-secondary);
+}
+
+.water {
+    background-color: var(--water-secondary);
+}
+
+.bug {
+    background-color: var(--bug-secondary);
+}
+
+.normal {
+    background-color: var(--normal-secondary);
+}
+
+.electric {
+    background-color: var(--electric-secondary);
+}
+
+.poison {
+    background-color: var(--poison-secondary);
+}
+
+.ground {
+    background-color: var(--ground-secondary);
+}
+
+.fighting {
+    background-color: var(--fighting-secondary);
+}
+
+.psychic {
+    background-color: var(--psychic-secondary);
+}
+
+.fairy {
+    background-color: var(--fairy-secondary);
+}
+
+.rock {
+    background-color: var(--rock-secondary);
+}
+
+.ghost {
+    background-color: var(--ghost-secondary);
+}
+
+.ice {
+    background-color: var(--ice-secondary);
+}
+
+.dragon {
+    background-color: var(--dragon-secondary);
+}
+
+.flying {
+    background-color: var(--flying-secondary);
+}
+
+@keyframes shaking {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-2px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(2px, 0, 0);
+    }
+}
