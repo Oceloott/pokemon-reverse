@@ -2,48 +2,38 @@
 
 <template>
   <div>
-    <br><br><br>
-    <!-- <div class="container">
-      <Card
-        v-for="pokemon in pokedex"
-        :key="pokemon.id"
-        :imageLink="`/images/${
-          ('00' + pokemon.id).slice(-3) + pokemon.name.english + '.png'
-        }`"
-        :id="pokemon.id"
-        :name="pokemon.name.english"
-        :newClass="pokemon.type[0].toLowerCase()"
-        :type1="pokemon.type[0]"
-        :type2="pokemon.type[1]"
-        :pokemonLink="pokemon.id - 1"
-        />
-    </div> -->
-    <!-- <div v-for="pokemon in pokedex" :key="pokemon.id">
-      <h2>{{ pokemon.name.english }}</h2>
-      <p>Types: {{ pokemon.type.join(', ') }}</p>
-      <p>HP: {{ pokemon.base.HP }}</p>
-      <p>Attack: {{ pokemon.base.Attack }}</p>
-      <p>Defense: {{ pokemon.base.Defense }}</p>
-      <p>Sp. Attack: {{ pokemon.base['Sp. Attack'] }}</p>
-      <p>Sp. Defense: {{ pokemon.base['Sp. Defense'] }}</p>
-      <p>Speed: {{ pokemon.base.Speed }}</p>
-    </div> -->
-    {{ randomPokemon }}
+    <br /><br /><br />
     <div class="container">
       <div class="pokedex">
-        <div class="pokedex-aside">fds</div>
+        <div class="pokedex-aside">
+          <Random
+            v-if="randomPokemon"
+            :randomImage="`/images/${
+              ('00' + randomPokemon.id).slice(-3) +
+              randomPokemon.name.english +
+              '.png'
+            }`"
+            :randomNum="randomPokemon.num"
+            :randomName="randomPokemon.name.english"
+            :randomTypes="randomPokemon.type"
+            :randomHeight="randomPokemon.height"
+            :randomWeight="randomPokemon.weight"
+            :randomStats="randomPokemon.base"
+            :randomWeaknesses="randomPokemon.weaknesses"
+            :randomClass="randomPokemon.type[0].toLowerCase()"
+          />
+        </div>
         <div class="pokedex-list">
           <Card
             v-for="pokemon in pokedex"
             :key="pokemon.id"
-            :imageLink="`/images/${
+            :pokemonImage="`/images/${
               ('00' + pokemon.id).slice(-3) + pokemon.name.english + '.png'
             }`"
-            :id="pokemon.num"
-            :name="pokemon.name.english"
-            :newClass="pokemon.type[0].toLowerCase()"
-            :type1="pokemon.type[0]"
-            :type2="pokemon.type[1]"
+            :pokemonNum="pokemon.num"
+            :pokemonName="pokemon.name.english"
+            :pokemonClass="pokemon.type[0].toLowerCase()"
+            :pokemonTypes="pokemon.type"
             :pokemonLink="pokemon.id - 1"
           />
         </div>
@@ -54,19 +44,22 @@
 
 <script>
 import Card from "@/components/Card.vue";
+import Random from "@/components/Random.vue";
 export default {
   name: "IndexPage",
   components: {
     Card,
+    Random,
   },
   computed: {
     pokedex() {
       return this.$store.state.pokedex;
     },
-    randomPokemon(){
+    randomPokemon() {
       if (this.pokedex.length === 0) return null;
       const randomIndex = Math.floor(Math.random() * this.pokedex.length);
-      return this.pokedex[randomIndex];    }
+      return this.pokedex[randomIndex];
+    },
   },
   async mounted() {
     await this.$store.dispatch("fetchPokedex");
@@ -76,7 +69,6 @@ export default {
 
 <style lang="scss">
 .pokedex {
-  background: red;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -89,13 +81,13 @@ export default {
   }
 
   &-aside {
-    background: bisque;
+    height: fit-content;
+    margin-top: 100px;
     @media screen and (min-width: 1200px) {
       grid-area: 1 / 1 / 2 / 2;
     }
   }
   &-list {
-    background: rebeccapurple;
     display: grid;
     grid-auto-rows: minmax(100px, auto);
     grid-template-columns: repeat(1, 1fr);
@@ -131,5 +123,4 @@ export default {
     max-width: 1170px;
   }
 }
-
 </style>

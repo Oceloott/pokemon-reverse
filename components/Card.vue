@@ -1,19 +1,21 @@
 <template>
-  <div class="pokedex-card" :class="'pokedex-card--' + newClass">
+  <div class="pokedex-card" :class="'bg-' + pokemonClass">
     <NuxtLink class="full" :to="'/pokemon/' + pokemonLink">
-    <p class="pokedex-id">#{{ id }}</p>
-    <p class="pokedex-name">{{ name }}</p>
+    <p class="pokedex-id">#{{ pokemonNum }}</p>
+    <p class="pokedex-name">{{ pokemonName }}</p>
     <div class="pokedex-information">
       <div class="pokedex-types">
-        <p class="pokedex-type" :class="type1.toLocaleLowerCase()">
-          {{ type1 }}
-        </p>
-        <p class="pokedex-type" :class="type2.toLocaleLowerCase()" v-if="type2">
-          {{ type2 }}
-        </p>
+        <p
+        class="pokedex-type"
+        :class="'bg-' + type.toLocaleLowerCase() + '--secondary'"
+        v-for="(type, index) in pokemonTypes"
+        :key="index"
+      >
+        {{ type }}
+      </p>
       </div>
       <div class="pokedex-pokemon">
-        <img class="pokedex-image" :src="imageLink" :alt="name" />
+        <img class="pokedex-image" :src="pokemonImage" :alt="name" />
       </div>
     </div>
   </NuxtLink>
@@ -23,7 +25,7 @@
 <script>
 export default {
   props: {
-    imageLink: {
+    pokemonImage: {
       type: String,
       required: true,
     },
@@ -31,26 +33,25 @@ export default {
       type: Number,
       required: true,
     },
-    type1: {
-      type: String,
-      required: true,
-    },
-    type2: {
-      type: String,
-      required: false,
-      default: null,
-    },
     id: {
       type: Number,
       required: true,
     },
-    name: {
+    pokemonNum: {
       type: String,
       required: true,
     },
-    newClass: {
+    pokemonName: {
+      type: String,
+      required: true,
+    },
+    pokemonClass: {
       type: String,
       default: "",
+    },
+    pokemonTypes: {
+      type: Array,
+      required: true,
     },
   },
 };
@@ -106,54 +107,9 @@ export default {
     border-radius: 10px 10px 10px 35px;
     margin: 10px;
     width: auto;
-
     max-height: 150px;
-
-    &--grass {
-      background-color: var(--grass);
-    }
-    &--fire {
-      background-color: var(--fire);
-    }
-    &--water {
-      background-color: var(--water);
-    }
-    &--bug {
-      background-color: var(--bug);
-    }
-    &--normal {
-      background-color: var(--normal);
-    }
-    &--electric {
-      background-color: var(--electric);
-    }
-    &--poison {
-      background-color: var(--poison);
-    }
-    &--ground {
-      background-color: var(--ground);
-    }
-    &--fighting {
-      background-color: var(--fighting);
-    }
-    &--psychic {
-      background-color: var(--psychic);
-    }
-    &--fairy {
-      background-color: var(--fairy);
-    }
-    &--rock {
-      background-color: var(--rock);
-    }
-    &--ghost {
-      background-color: var(--ghost);
-    }
-    &--ice {
-      background-color: var(--ice);
-    }
-    &--dragon {
-      background-color: var(--dragon);
-    }
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
     &:hover .pokedex-image{
       animation: shaking 0.82s cubic-bezier(.36,.07,.19,.97) both;
       transform: translate3d(0, 0, 0);

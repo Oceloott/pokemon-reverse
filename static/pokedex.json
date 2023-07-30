@@ -13,11 +13,11 @@
     ],
     "base": {
       "HP": 45,
-      "Attack": 49,
-      "Defense": 49,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
-      "Speed": 45
+      "ATK": 49,
+      "DEF": 49,
+      "SpA": 65,
+      "SpD": 65,
+      "SPD": 45
     },
     "height": "0.71 m",
     "weight": "6.9 kg",
@@ -52,11 +52,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 62,
-      "Defense": 63,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
-      "Speed": 60
+      "ATK": 62,
+      "DEF": 63,
+      "SpA": 80,
+      "SpD": 80,
+      "SPD": 60
     },
     "height": "0.99 m",
     "weight": "13.0 kg",
@@ -93,11 +93,11 @@
     ],
     "base": {
       "HP": 80,
-      "Attack": 82,
-      "Defense": 83,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
-      "Speed": 80
+      "ATK": 82,
+      "DEF": 83,
+      "SpA": 100,
+      "SpD": 100,
+      "SPD": 80
     },
     "height": "2.01 m",
     "weight": "100.0 kg",
@@ -131,11 +131,11 @@
     ],
     "base": {
       "HP": 39,
-      "Attack": 52,
-      "Defense": 43,
-      "Sp. Attack": 60,
-      "Sp. Defense": 50,
-      "Speed": 65
+      "ATK": 52,
+      "DEF": 43,
+      "SpA": 60,
+      "SpD": 50,
+      "SPD": 65
     },
     "height": "0.61 m",
     "weight": "8.5 kg",
@@ -168,11 +168,11 @@
     ],
     "base": {
       "HP": 58,
-      "Attack": 64,
-      "Defense": 58,
-      "Sp. Attack": 80,
-      "Sp. Defense": 65,
-      "Speed": 80
+      "ATK": 64,
+      "DEF": 58,
+      "SpA": 80,
+      "SpD": 65,
+      "SPD": 80
     },
     "height": "1.09 m",
     "weight": "19.0 kg",
@@ -208,11 +208,11 @@
     ],
     "base": {
       "HP": 78,
-      "Attack": 84,
-      "Defense": 78,
-      "Sp. Attack": 109,
-      "Sp. Defense": 85,
-      "Speed": 100
+      "ATK": 84,
+      "DEF": 78,
+      "SpA": 109,
+      "SpD": 85,
+      "SPD": 100
     },
     "height": "1.70 m",
     "weight": "90.5 kg",
@@ -245,11 +245,11 @@
     ],
     "base": {
       "HP": 44,
-      "Attack": 48,
-      "Defense": 65,
-      "Sp. Attack": 50,
-      "Sp. Defense": 64,
-      "Speed": 43
+      "ATK": 48,
+      "DEF": 65,
+      "SpA": 50,
+      "SpD": 64,
+      "SPD": 43
     },
     "height": "0.51 m",
     "weight": "9.0 kg",
@@ -281,11 +281,11 @@
     ],
     "base": {
       "HP": 59,
-      "Attack": 63,
-      "Defense": 80,
-      "Sp. Attack": 65,
-      "Sp. Defense": 80,
-      "Speed": 58
+      "ATK": 63,
+      "DEF": 80,
+      "SpA": 65,
+      "SpD": 80,
+      "SPD": 58
     },
     "height": "0.99 m",
     "weight": "22.5 kg",
@@ -319,11 +319,11 @@
     ],
     "base": {
       "HP": 79,
-      "Attack": 83,
-      "Defense": 100,
-      "Sp. Attack": 85,
-      "Sp. Defense": 105,
-      "Speed": 78
+      "ATK": 83,
+      "DEF": 100,
+      "SpA": 85,
+      "SpD": 105,
+      "SPD": 78
     },
     "height": "1.60 m",
     "weight": "85.5 kg",
@@ -355,11 +355,11 @@
     ],
     "base": {
       "HP": 45,
-      "Attack": 30,
-      "Defense": 35,
-      "Sp. Attack": 20,
-      "Sp. Defense": 20,
-      "Speed": 45
+      "ATK": 30,
+      "DEF": 35,
+      "SpA": 20,
+      "SpD": 20,
+      "SPD": 45
     },
     "height": "0.30 m",
     "weight": "2.9 kg",
@@ -392,11 +392,11 @@
     ],
     "base": {
       "HP": 50,
-      "Attack": 20,
-      "Defense": 55,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
-      "Speed": 30
+      "ATK": 20,
+      "DEF": 55,
+      "SpA": 25,
+      "SpD": 25,
+      "SPD": 30
     },
     "height": "0.71 m",
     "weight": "9.9 kg",
@@ -432,11 +432,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 45,
-      "Defense": 50,
-      "Sp. Attack": 90,
-      "Sp. Defense": 80,
-      "Speed": 70
+      "ATK": 45,
+      "DEF": 50,
+      "SpA": 90,
+      "SpD": 80,
+      "SPD": 70
     },
     "height": "1.09 m",
     "weight": "32.0 kg",
@@ -472,11 +472,11 @@
     ],
     "base": {
       "HP": 40,
-      "Attack": 35,
-      "Defense": 30,
-      "Sp. Attack": 20,
-      "Sp. Defense": 20,
-      "Speed": 50
+      "ATK": 35,
+      "DEF": 30,
+      "SpA": 20,
+      "SpD": 20,
+      "SPD": 50
     },
     "height": "0.30 m",
     "weight": "3.2 kg",
@@ -511,11 +511,11 @@
     ],
     "base": {
       "HP": 45,
-      "Attack": 25,
-      "Defense": 50,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
-      "Speed": 35
+      "ATK": 25,
+      "DEF": 50,
+      "SpA": 25,
+      "SpD": 25,
+      "SPD": 35
     },
     "height": "0.61 m",
     "weight": "10.0 kg",
@@ -552,11 +552,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 90,
-      "Defense": 40,
-      "Sp. Attack": 45,
-      "Sp. Defense": 80,
-      "Speed": 75
+      "ATK": 90,
+      "DEF": 40,
+      "SpA": 45,
+      "SpD": 80,
+      "SPD": 75
     },
     "height": "0.99 m",
     "weight": "29.5 kg",
@@ -591,11 +591,11 @@
     ],
     "base": {
       "HP": 40,
-      "Attack": 45,
-      "Defense": 40,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
-      "Speed": 56
+      "ATK": 45,
+      "DEF": 40,
+      "SpA": 35,
+      "SpD": 35,
+      "SPD": 56
     },
     "height": "0.30 m",
     "weight": "1.8 kg",
@@ -628,11 +628,11 @@
     ],
     "base": {
       "HP": 63,
-      "Attack": 60,
-      "Defense": 55,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
-      "Speed": 71
+      "ATK": 60,
+      "DEF": 55,
+      "SpA": 50,
+      "SpD": 50,
+      "SPD": 71
     },
     "height": "1.09 m",
     "weight": "30.0 kg",
@@ -667,11 +667,11 @@
     ],
     "base": {
       "HP": 83,
-      "Attack": 80,
-      "Defense": 75,
-      "Sp. Attack": 70,
-      "Sp. Defense": 70,
-      "Speed": 101
+      "ATK": 80,
+      "DEF": 75,
+      "SpA": 70,
+      "SpD": 70,
+      "SPD": 101
     },
     "height": "1.50 m",
     "weight": "39.5 kg",
@@ -703,11 +703,11 @@
     ],
     "base": {
       "HP": 30,
-      "Attack": 56,
-      "Defense": 35,
-      "Sp. Attack": 25,
-      "Sp. Defense": 35,
-      "Speed": 72
+      "ATK": 56,
+      "DEF": 35,
+      "SpA": 25,
+      "SpD": 35,
+      "SPD": 72
     },
     "height": "0.30 m",
     "weight": "3.5 kg",
@@ -734,11 +734,11 @@
     ],
     "base": {
       "HP": 55,
-      "Attack": 81,
-      "Defense": 60,
-      "Sp. Attack": 50,
-      "Sp. Defense": 70,
-      "Speed": 97
+      "ATK": 81,
+      "DEF": 60,
+      "SpA": 50,
+      "SpD": 70,
+      "SPD": 97
     },
     "height": "0.71 m",
     "weight": "18.5 kg",
@@ -766,11 +766,11 @@
     ],
     "base": {
       "HP": 40,
-      "Attack": 60,
-      "Defense": 30,
-      "Sp. Attack": 31,
-      "Sp. Defense": 31,
-      "Speed": 70
+      "ATK": 60,
+      "DEF": 30,
+      "SpA": 31,
+      "SpD": 31,
+      "SPD": 70
     },
     "height": "0.30 m",
     "weight": "2.0 kg",
@@ -799,11 +799,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 90,
-      "Defense": 65,
-      "Sp. Attack": 61,
-      "Sp. Defense": 61,
-      "Speed": 100
+      "ATK": 90,
+      "DEF": 65,
+      "SpA": 61,
+      "SpD": 61,
+      "SPD": 100
     },
     "height": "1.19 m",
     "weight": "38.0 kg",
@@ -831,11 +831,11 @@
     ],
     "base": {
       "HP": 35,
-      "Attack": 60,
-      "Defense": 44,
-      "Sp. Attack": 40,
-      "Sp. Defense": 54,
-      "Speed": 55
+      "ATK": 60,
+      "DEF": 44,
+      "SpA": 40,
+      "SpD": 54,
+      "SPD": 55
     },
     "height": "2.01 m",
     "weight": "6.9 kg",
@@ -863,11 +863,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 95,
-      "Defense": 69,
-      "Sp. Attack": 65,
-      "Sp. Defense": 79,
-      "Speed": 80
+      "ATK": 95,
+      "DEF": 69,
+      "SpA": 65,
+      "SpD": 79,
+      "SPD": 80
     },
     "height": "3.51 m",
     "weight": "65.0 kg",
@@ -895,11 +895,11 @@
     ],
     "base": {
       "HP": 35,
-      "Attack": 55,
-      "Defense": 40,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
-      "Speed": 90
+      "ATK": 55,
+      "DEF": 40,
+      "SpA": 50,
+      "SpD": 50,
+      "SPD": 90
     },
     "height": "0.41 m",
     "weight": "6.0 kg",
@@ -926,11 +926,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 90,
-      "Defense": 55,
-      "Sp. Attack": 90,
-      "Sp. Defense": 80,
-      "Speed": 110
+      "ATK": 90,
+      "DEF": 55,
+      "SpA": 90,
+      "SpD": 80,
+      "SPD": 110
     },
     "height": "0.79 m",
     "weight": "30.0 kg",
@@ -957,11 +957,11 @@
     ],
     "base": {
       "HP": 50,
-      "Attack": 75,
-      "Defense": 85,
-      "Sp. Attack": 20,
-      "Sp. Defense": 30,
-      "Speed": 40
+      "ATK": 75,
+      "DEF": 85,
+      "SpA": 20,
+      "SpD": 30,
+      "SPD": 40
     },
     "height": "0.61 m",
     "weight": "12.0 kg",
@@ -990,11 +990,11 @@
     ],
     "base": {
       "HP": 75,
-      "Attack": 100,
-      "Defense": 110,
-      "Sp. Attack": 45,
-      "Sp. Defense": 55,
-      "Speed": 65
+      "ATK": 100,
+      "DEF": 110,
+      "SpA": 45,
+      "SpD": 55,
+      "SPD": 65
     },
     "height": "0.99 m",
     "weight": "29.5 kg",
@@ -1023,11 +1023,11 @@
     ],
     "base": {
       "HP": 55,
-      "Attack": 47,
-      "Defense": 52,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
-      "Speed": 41
+      "ATK": 47,
+      "DEF": 52,
+      "SpA": 40,
+      "SpD": 40,
+      "SPD": 41
     },
     "height": "0.41 m",
     "weight": "7.0 kg",
@@ -1059,11 +1059,11 @@
     ],
     "base": {
       "HP": 70,
-      "Attack": 62,
-      "Defense": 67,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
-      "Speed": 56
+      "ATK": 62,
+      "DEF": 67,
+      "SpA": 55,
+      "SpD": 55,
+      "SPD": 56
     },
     "height": "0.79 m",
     "weight": "20.0 kg",
@@ -1098,11 +1098,11 @@
     ],
     "base": {
       "HP": 90,
-      "Attack": 92,
-      "Defense": 87,
-      "Sp. Attack": 75,
-      "Sp. Defense": 85,
-      "Speed": 76
+      "ATK": 92,
+      "DEF": 87,
+      "SpA": 75,
+      "SpD": 85,
+      "SPD": 76
     },
     "height": "1.30 m",
     "weight": "60.0 kg",
@@ -1136,11 +1136,11 @@
     ],
     "base": {
       "HP": 46,
-      "Attack": 57,
-      "Defense": 40,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
-      "Speed": 50
+      "ATK": 57,
+      "DEF": 40,
+      "SpA": 40,
+      "SpD": 40,
+      "SPD": 50
     },
     "height": "0.51 m",
     "weight": "9.0 kg",
@@ -1172,11 +1172,11 @@
     ],
     "base": {
       "HP": 61,
-      "Attack": 72,
-      "Defense": 57,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
-      "Speed": 65
+      "ATK": 72,
+      "DEF": 57,
+      "SpA": 55,
+      "SpD": 55,
+      "SPD": 65
     },
     "height": "0.89 m",
     "weight": "19.5 kg",
@@ -1211,11 +1211,11 @@
     ],
     "base": {
       "HP": 81,
-      "Attack": 102,
-      "Defense": 77,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
-      "Speed": 85
+      "ATK": 102,
+      "DEF": 77,
+      "SpA": 85,
+      "SpD": 75,
+      "SPD": 85
     },
     "height": "1.40 m",
     "weight": "62.0 kg",
@@ -1249,11 +1249,11 @@
     ],
     "base": {
       "HP": 70,
-      "Attack": 45,
-      "Defense": 48,
-      "Sp. Attack": 60,
-      "Sp. Defense": 65,
-      "Speed": 35
+      "ATK": 45,
+      "DEF": 48,
+      "SpA": 60,
+      "SpD": 65,
+      "SPD": 35
     },
     "height": "0.61 m",
     "weight": "7.5 kg",
@@ -1280,11 +1280,11 @@
     ],
     "base": {
       "HP": 95,
-      "Attack": 70,
-      "Defense": 73,
-      "Sp. Attack": 95,
-      "Sp. Defense": 90,
-      "Speed": 60
+      "ATK": 70,
+      "DEF": 73,
+      "SpA": 95,
+      "SpD": 90,
+      "SPD": 60
     },
     "height": "1.30 m",
     "weight": "40.0 kg",
@@ -1311,11 +1311,11 @@
     ],
     "base": {
       "HP": 38,
-      "Attack": 41,
-      "Defense": 40,
-      "Sp. Attack": 50,
-      "Sp. Defense": 65,
-      "Speed": 65
+      "ATK": 41,
+      "DEF": 40,
+      "SpA": 50,
+      "SpD": 65,
+      "SPD": 65
     },
     "height": "0.61 m",
     "weight": "9.9 kg",
@@ -1344,11 +1344,11 @@
     ],
     "base": {
       "HP": 73,
-      "Attack": 76,
-      "Defense": 75,
-      "Sp. Attack": 81,
-      "Sp. Defense": 100,
-      "Speed": 100
+      "ATK": 76,
+      "DEF": 75,
+      "SpA": 81,
+      "SpD": 100,
+      "SPD": 100
     },
     "height": "1.09 m",
     "weight": "19.9 kg",
@@ -1378,11 +1378,11 @@
     ],
     "base": {
       "HP": 115,
-      "Attack": 45,
-      "Defense": 20,
-      "Sp. Attack": 45,
-      "Sp. Defense": 25,
-      "Speed": 20
+      "ATK": 45,
+      "DEF": 20,
+      "SpA": 45,
+      "SpD": 25,
+      "SPD": 20
     },
     "height": "0.51 m",
     "weight": "5.5 kg",
@@ -1410,11 +1410,11 @@
     ],
     "base": {
       "HP": 140,
-      "Attack": 70,
-      "Defense": 45,
-      "Sp. Attack": 85,
-      "Sp. Defense": 50,
-      "Speed": 45
+      "ATK": 70,
+      "DEF": 45,
+      "SpA": 85,
+      "SpD": 50,
+      "SPD": 45
     },
     "height": "0.99 m",
     "weight": "12.0 kg",
@@ -1442,11 +1442,11 @@
     ],
     "base": {
       "HP": 40,
-      "Attack": 45,
-      "Defense": 35,
-      "Sp. Attack": 30,
-      "Sp. Defense": 40,
-      "Speed": 55
+      "ATK": 45,
+      "DEF": 35,
+      "SpA": 30,
+      "SpD": 40,
+      "SPD": 55
     },
     "height": "0.79 m",
     "weight": "7.5 kg",
@@ -1477,11 +1477,11 @@
     ],
     "base": {
       "HP": 75,
-      "Attack": 80,
-      "Defense": 70,
-      "Sp. Attack": 65,
-      "Sp. Defense": 75,
-      "Speed": 90
+      "ATK": 80,
+      "DEF": 70,
+      "SpA": 65,
+      "SpD": 75,
+      "SPD": 90
     },
     "height": "1.60 m",
     "weight": "55.0 kg",
@@ -1512,11 +1512,11 @@
     ],
     "base": {
       "HP": 45,
-      "Attack": 50,
-      "Defense": 55,
-      "Sp. Attack": 75,
-      "Sp. Defense": 65,
-      "Speed": 30
+      "ATK": 50,
+      "DEF": 55,
+      "SpA": 75,
+      "SpD": 65,
+      "SPD": 30
     },
     "height": "0.51 m",
     "weight": "5.4 kg",
@@ -1551,11 +1551,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 65,
-      "Defense": 70,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
-      "Speed": 40
+      "ATK": 65,
+      "DEF": 70,
+      "SpA": 85,
+      "SpD": 75,
+      "SPD": 40
     },
     "height": "0.79 m",
     "weight": "8.6 kg",
@@ -1592,11 +1592,11 @@
     ],
     "base": {
       "HP": 75,
-      "Attack": 80,
-      "Defense": 85,
-      "Sp. Attack": 110,
-      "Sp. Defense": 90,
-      "Speed": 50
+      "ATK": 80,
+      "DEF": 85,
+      "SpA": 110,
+      "SpD": 90,
+      "SPD": 50
     },
     "height": "1.19 m",
     "weight": "18.6 kg",
@@ -1631,11 +1631,11 @@
     ],
     "base": {
       "HP": 35,
-      "Attack": 70,
-      "Defense": 55,
-      "Sp. Attack": 45,
-      "Sp. Defense": 55,
-      "Speed": 25
+      "ATK": 70,
+      "DEF": 55,
+      "SpA": 45,
+      "SpD": 55,
+      "SPD": 25
     },
     "height": "0.30 m",
     "weight": "5.4 kg",
@@ -1668,11 +1668,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 95,
-      "Defense": 80,
-      "Sp. Attack": 60,
-      "Sp. Defense": 80,
-      "Speed": 30
+      "ATK": 95,
+      "DEF": 80,
+      "SpA": 60,
+      "SpD": 80,
+      "SPD": 30
     },
     "height": "0.99 m",
     "weight": "29.5 kg",
@@ -1705,11 +1705,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 55,
-      "Defense": 50,
-      "Sp. Attack": 40,
-      "Sp. Defense": 55,
-      "Speed": 45
+      "ATK": 55,
+      "DEF": 50,
+      "SpA": 40,
+      "SpD": 55,
+      "SPD": 45
     },
     "height": "0.99 m",
     "weight": "30.0 kg",
@@ -1740,11 +1740,11 @@
     ],
     "base": {
       "HP": 70,
-      "Attack": 65,
-      "Defense": 60,
-      "Sp. Attack": 90,
-      "Sp. Defense": 75,
-      "Speed": 90
+      "ATK": 65,
+      "DEF": 60,
+      "SpA": 90,
+      "SpD": 75,
+      "SPD": 90
     },
     "height": "1.50 m",
     "weight": "12.5 kg",
@@ -1774,11 +1774,11 @@
     ],
     "base": {
       "HP": 10,
-      "Attack": 55,
-      "Defense": 25,
-      "Sp. Attack": 35,
-      "Sp. Defense": 45,
-      "Speed": 95
+      "ATK": 55,
+      "DEF": 25,
+      "SpA": 35,
+      "SpD": 45,
+      "SPD": 95
     },
     "height": "0.20 m",
     "weight": "0.8 kg",
@@ -1807,11 +1807,11 @@
     ],
     "base": {
       "HP": 35,
-      "Attack": 100,
-      "Defense": 50,
-      "Sp. Attack": 50,
-      "Sp. Defense": 70,
-      "Speed": 120
+      "ATK": 100,
+      "DEF": 50,
+      "SpA": 50,
+      "SpD": 70,
+      "SPD": 120
     },
     "height": "0.71 m",
     "weight": "33.3 kg",
@@ -1840,11 +1840,11 @@
     ],
     "base": {
       "HP": 40,
-      "Attack": 45,
-      "Defense": 35,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
-      "Speed": 90
+      "ATK": 45,
+      "DEF": 35,
+      "SpA": 40,
+      "SpD": 40,
+      "SPD": 90
     },
     "height": "0.41 m",
     "weight": "4.2 kg",
@@ -1871,11 +1871,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 70,
-      "Defense": 60,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
-      "Speed": 115
+      "ATK": 70,
+      "DEF": 60,
+      "SpA": 65,
+      "SpD": 65,
+      "SPD": 115
     },
     "height": "0.99 m",
     "weight": "32.0 kg",
@@ -1902,11 +1902,11 @@
     ],
     "base": {
       "HP": 50,
-      "Attack": 52,
-      "Defense": 48,
-      "Sp. Attack": 65,
-      "Sp. Defense": 50,
-      "Speed": 55
+      "ATK": 52,
+      "DEF": 48,
+      "SpA": 65,
+      "SpD": 50,
+      "SPD": 55
     },
     "height": "0.79 m",
     "weight": "19.6 kg",
@@ -1934,11 +1934,11 @@
     ],
     "base": {
       "HP": 80,
-      "Attack": 82,
-      "Defense": 78,
-      "Sp. Attack": 95,
-      "Sp. Defense": 80,
-      "Speed": 85
+      "ATK": 82,
+      "DEF": 78,
+      "SpA": 95,
+      "SpD": 80,
+      "SPD": 85
     },
     "height": "1.70 m",
     "weight": "76.6 kg",
@@ -1966,11 +1966,11 @@
     ],
     "base": {
       "HP": 40,
-      "Attack": 80,
-      "Defense": 35,
-      "Sp. Attack": 35,
-      "Sp. Defense": 45,
-      "Speed": 70
+      "ATK": 80,
+      "DEF": 35,
+      "SpA": 35,
+      "SpD": 45,
+      "SPD": 70
     },
     "height": "0.51 m",
     "weight": "28.0 kg",
@@ -1999,11 +1999,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 105,
-      "Defense": 60,
-      "Sp. Attack": 60,
-      "Sp. Defense": 70,
-      "Speed": 95
+      "ATK": 105,
+      "DEF": 60,
+      "SpA": 60,
+      "SpD": 70,
+      "SPD": 95
     },
     "height": "0.99 m",
     "weight": "32.0 kg",
@@ -2032,11 +2032,11 @@
     ],
     "base": {
       "HP": 55,
-      "Attack": 70,
-      "Defense": 45,
-      "Sp. Attack": 70,
-      "Sp. Defense": 50,
-      "Speed": 60
+      "ATK": 70,
+      "DEF": 45,
+      "SpA": 70,
+      "SpD": 50,
+      "SPD": 60
     },
     "height": "0.71 m",
     "weight": "19.0 kg",
@@ -2065,11 +2065,11 @@
     ],
     "base": {
       "HP": 90,
-      "Attack": 110,
-      "Defense": 80,
-      "Sp. Attack": 100,
-      "Sp. Defense": 80,
-      "Speed": 95
+      "ATK": 110,
+      "DEF": 80,
+      "SpA": 100,
+      "SpD": 80,
+      "SPD": 95
     },
     "height": "1.91 m",
     "weight": "155.0 kg",
@@ -2098,11 +2098,11 @@
     ],
     "base": {
       "HP": 40,
-      "Attack": 50,
-      "Defense": 40,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
-      "Speed": 90
+      "ATK": 50,
+      "DEF": 40,
+      "SpA": 40,
+      "SpD": 40,
+      "SPD": 90
     },
     "height": "0.61 m",
     "weight": "12.4 kg",
@@ -2134,11 +2134,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 65,
-      "Defense": 65,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
-      "Speed": 90
+      "ATK": 65,
+      "DEF": 65,
+      "SpA": 50,
+      "SpD": 50,
+      "SPD": 90
     },
     "height": "0.99 m",
     "weight": "20.0 kg",
@@ -2173,11 +2173,11 @@
     ],
     "base": {
       "HP": 90,
-      "Attack": 95,
-      "Defense": 95,
-      "Sp. Attack": 70,
-      "Sp. Defense": 90,
-      "Speed": 70
+      "ATK": 95,
+      "DEF": 95,
+      "SpA": 70,
+      "SpD": 90,
+      "SPD": 70
     },
     "height": "1.30 m",
     "weight": "54.0 kg",
@@ -2212,11 +2212,11 @@
     ],
     "base": {
       "HP": 25,
-      "Attack": 20,
-      "Defense": 15,
-      "Sp. Attack": 105,
-      "Sp. Defense": 55,
-      "Speed": 90
+      "ATK": 20,
+      "DEF": 15,
+      "SpA": 105,
+      "SpD": 55,
+      "SPD": 90
     },
     "height": "0.89 m",
     "weight": "19.5 kg",
@@ -2249,11 +2249,11 @@
     ],
     "base": {
       "HP": 40,
-      "Attack": 35,
-      "Defense": 30,
-      "Sp. Attack": 120,
-      "Sp. Defense": 70,
-      "Speed": 105
+      "ATK": 35,
+      "DEF": 30,
+      "SpA": 120,
+      "SpD": 70,
+      "SPD": 105
     },
     "height": "1.30 m",
     "weight": "56.5 kg",
@@ -2288,11 +2288,11 @@
     ],
     "base": {
       "HP": 55,
-      "Attack": 50,
-      "Defense": 45,
-      "Sp. Attack": 135,
-      "Sp. Defense": 95,
-      "Speed": 120
+      "ATK": 50,
+      "DEF": 45,
+      "SpA": 135,
+      "SpD": 95,
+      "SPD": 120
     },
     "height": "1.50 m",
     "weight": "48.0 kg",
@@ -2325,11 +2325,11 @@
     ],
     "base": {
       "HP": 70,
-      "Attack": 80,
-      "Defense": 50,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
-      "Speed": 35
+      "ATK": 80,
+      "DEF": 50,
+      "SpA": 35,
+      "SpD": 35,
+      "SPD": 35
     },
     "height": "0.79 m",
     "weight": "19.5 kg",
@@ -2362,11 +2362,11 @@
     ],
     "base": {
       "HP": 80,
-      "Attack": 100,
-      "Defense": 70,
-      "Sp. Attack": 50,
-      "Sp. Defense": 60,
-      "Speed": 45
+      "ATK": 100,
+      "DEF": 70,
+      "SpA": 50,
+      "SpD": 60,
+      "SPD": 45
     },
     "height": "1.50 m",
     "weight": "70.5 kg",
@@ -2401,11 +2401,11 @@
     ],
     "base": {
       "HP": 90,
-      "Attack": 130,
-      "Defense": 80,
-      "Sp. Attack": 65,
-      "Sp. Defense": 85,
-      "Speed": 55
+      "ATK": 130,
+      "DEF": 80,
+      "SpA": 65,
+      "SpD": 85,
+      "SPD": 55
     },
     "height": "1.60 m",
     "weight": "130.0 kg",
@@ -2439,11 +2439,11 @@
     ],
     "base": {
       "HP": 50,
-      "Attack": 75,
-      "Defense": 35,
-      "Sp. Attack": 70,
-      "Sp. Defense": 30,
-      "Speed": 40
+      "ATK": 75,
+      "DEF": 35,
+      "SpA": 70,
+      "SpD": 30,
+      "SPD": 40
     },
     "height": "0.71 m",
     "weight": "4.0 kg",
@@ -2478,11 +2478,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 90,
-      "Defense": 50,
-      "Sp. Attack": 85,
-      "Sp. Defense": 45,
-      "Speed": 55
+      "ATK": 90,
+      "DEF": 50,
+      "SpA": 85,
+      "SpD": 45,
+      "SPD": 55
     },
     "height": "0.99 m",
     "weight": "6.4 kg",
@@ -2519,11 +2519,11 @@
     ],
     "base": {
       "HP": 80,
-      "Attack": 105,
-      "Defense": 65,
-      "Sp. Attack": 100,
-      "Sp. Defense": 70,
-      "Speed": 70
+      "ATK": 105,
+      "DEF": 65,
+      "SpA": 100,
+      "SpD": 70,
+      "SPD": 70
     },
     "height": "1.70 m",
     "weight": "15.5 kg",
@@ -2558,11 +2558,11 @@
     ],
     "base": {
       "HP": 40,
-      "Attack": 40,
-      "Defense": 35,
-      "Sp. Attack": 50,
-      "Sp. Defense": 100,
-      "Speed": 70
+      "ATK": 40,
+      "DEF": 35,
+      "SpA": 50,
+      "SpD": 100,
+      "SPD": 70
     },
     "height": "0.89 m",
     "weight": "45.5 kg",
@@ -2592,11 +2592,11 @@
     ],
     "base": {
       "HP": 80,
-      "Attack": 70,
-      "Defense": 65,
-      "Sp. Attack": 80,
-      "Sp. Defense": 120,
-      "Speed": 100
+      "ATK": 70,
+      "DEF": 65,
+      "SpA": 80,
+      "SpD": 120,
+      "SPD": 100
     },
     "height": "1.60 m",
     "weight": "55.0 kg",
@@ -2626,11 +2626,11 @@
     ],
     "base": {
       "HP": 40,
-      "Attack": 80,
-      "Defense": 100,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
-      "Speed": 20
+      "ATK": 80,
+      "DEF": 100,
+      "SpA": 30,
+      "SpD": 30,
+      "SPD": 20
     },
     "height": "0.41 m",
     "weight": "20.0 kg",
@@ -2667,11 +2667,11 @@
     ],
     "base": {
       "HP": 55,
-      "Attack": 95,
-      "Defense": 115,
-      "Sp. Attack": 45,
-      "Sp. Defense": 45,
-      "Speed": 35
+      "ATK": 95,
+      "DEF": 115,
+      "SpA": 45,
+      "SpD": 45,
+      "SPD": 35
     },
     "height": "0.99 m",
     "weight": "105.0 kg",
@@ -2710,11 +2710,11 @@
     ],
     "base": {
       "HP": 80,
-      "Attack": 120,
-      "Defense": 130,
-      "Sp. Attack": 55,
-      "Sp. Defense": 65,
-      "Speed": 45
+      "ATK": 120,
+      "DEF": 130,
+      "SpA": 55,
+      "SpD": 65,
+      "SPD": 45
     },
     "height": "1.40 m",
     "weight": "300.0 kg",
@@ -2750,11 +2750,11 @@
     ],
     "base": {
       "HP": 50,
-      "Attack": 85,
-      "Defense": 55,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
-      "Speed": 90
+      "ATK": 85,
+      "DEF": 55,
+      "SpA": 65,
+      "SpD": 65,
+      "SPD": 90
     },
     "height": "0.99 m",
     "weight": "30.0 kg",
@@ -2783,11 +2783,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 100,
-      "Defense": 70,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
-      "Speed": 105
+      "ATK": 100,
+      "DEF": 70,
+      "SpA": 80,
+      "SpD": 80,
+      "SPD": 105
     },
     "height": "1.70 m",
     "weight": "95.0 kg",
@@ -2817,11 +2817,11 @@
     ],
     "base": {
       "HP": 90,
-      "Attack": 65,
-      "Defense": 65,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
-      "Speed": 15
+      "ATK": 65,
+      "DEF": 65,
+      "SpA": 40,
+      "SpD": 40,
+      "SPD": 15
     },
     "height": "1.19 m",
     "weight": "36.0 kg",
@@ -2853,11 +2853,11 @@
     ],
     "base": {
       "HP": 95,
-      "Attack": 75,
-      "Defense": 110,
-      "Sp. Attack": 100,
-      "Sp. Defense": 80,
-      "Speed": 30
+      "ATK": 75,
+      "DEF": 110,
+      "SpA": 100,
+      "SpD": 80,
+      "SPD": 30
     },
     "height": "1.60 m",
     "weight": "78.5 kg",
@@ -2889,11 +2889,11 @@
     ],
     "base": {
       "HP": 25,
-      "Attack": 35,
-      "Defense": 70,
-      "Sp. Attack": 95,
-      "Sp. Defense": 55,
-      "Speed": 45
+      "ATK": 35,
+      "DEF": 70,
+      "SpA": 95,
+      "SpD": 55,
+      "SPD": 45
     },
     "height": "0.30 m",
     "weight": "6.0 kg",
@@ -2923,11 +2923,11 @@
     ],
     "base": {
       "HP": 50,
-      "Attack": 60,
-      "Defense": 95,
-      "Sp. Attack": 120,
-      "Sp. Defense": 70,
-      "Speed": 70
+      "ATK": 60,
+      "DEF": 95,
+      "SpA": 120,
+      "SpD": 70,
+      "SPD": 70
     },
     "height": "0.99 m",
     "weight": "60.0 kg",
@@ -2957,11 +2957,11 @@
     ],
     "base": {
       "HP": 52,
-      "Attack": 90,
-      "Defense": 55,
-      "Sp. Attack": 58,
-      "Sp. Defense": 62,
-      "Speed": 60
+      "ATK": 90,
+      "DEF": 55,
+      "SpA": 58,
+      "SpD": 62,
+      "SPD": 60
     },
     "height": "0.79 m",
     "weight": "15.0 kg",
@@ -2984,11 +2984,11 @@
     ],
     "base": {
       "HP": 35,
-      "Attack": 85,
-      "Defense": 45,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
-      "Speed": 75
+      "ATK": 85,
+      "DEF": 45,
+      "SpA": 35,
+      "SpD": 35,
+      "SPD": 75
     },
     "height": "1.40 m",
     "weight": "39.2 kg",
@@ -3017,11 +3017,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 110,
-      "Defense": 70,
-      "Sp. Attack": 60,
-      "Sp. Defense": 60,
-      "Speed": 110
+      "ATK": 110,
+      "DEF": 70,
+      "SpA": 60,
+      "SpD": 60,
+      "SPD": 110
     },
     "height": "1.80 m",
     "weight": "85.2 kg",
@@ -3049,11 +3049,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 45,
-      "Defense": 55,
-      "Sp. Attack": 45,
-      "Sp. Defense": 70,
-      "Speed": 45
+      "ATK": 45,
+      "DEF": 55,
+      "SpA": 45,
+      "SpD": 70,
+      "SPD": 45
     },
     "height": "1.09 m",
     "weight": "90.0 kg",
@@ -3082,11 +3082,11 @@
     ],
     "base": {
       "HP": 90,
-      "Attack": 70,
-      "Defense": 80,
-      "Sp. Attack": 70,
-      "Sp. Defense": 95,
-      "Speed": 70
+      "ATK": 70,
+      "DEF": 80,
+      "SpA": 70,
+      "SpD": 95,
+      "SPD": 70
     },
     "height": "1.70 m",
     "weight": "120.0 kg",
@@ -3116,11 +3116,11 @@
     ],
     "base": {
       "HP": 80,
-      "Attack": 80,
-      "Defense": 50,
-      "Sp. Attack": 40,
-      "Sp. Defense": 50,
-      "Speed": 25
+      "ATK": 80,
+      "DEF": 50,
+      "SpA": 40,
+      "SpD": 50,
+      "SPD": 25
     },
     "height": "0.89 m",
     "weight": "30.0 kg",
@@ -3148,11 +3148,11 @@
     ],
     "base": {
       "HP": 105,
-      "Attack": 105,
-      "Defense": 75,
-      "Sp. Attack": 65,
-      "Sp. Defense": 100,
-      "Speed": 50
+      "ATK": 105,
+      "DEF": 75,
+      "SpA": 65,
+      "SpD": 100,
+      "SPD": 50
     },
     "height": "1.19 m",
     "weight": "30.0 kg",
@@ -3180,11 +3180,11 @@
     ],
     "base": {
       "HP": 30,
-      "Attack": 65,
-      "Defense": 100,
-      "Sp. Attack": 45,
-      "Sp. Defense": 25,
-      "Speed": 40
+      "ATK": 65,
+      "DEF": 100,
+      "SpA": 45,
+      "SpD": 25,
+      "SPD": 40
     },
     "height": "0.30 m",
     "weight": "4.0 kg",
@@ -3213,11 +3213,11 @@
     ],
     "base": {
       "HP": 50,
-      "Attack": 95,
-      "Defense": 180,
-      "Sp. Attack": 85,
-      "Sp. Defense": 45,
-      "Speed": 70
+      "ATK": 95,
+      "DEF": 180,
+      "SpA": 85,
+      "SpD": 45,
+      "SPD": 70
     },
     "height": "1.50 m",
     "weight": "132.5 kg",
@@ -3248,11 +3248,11 @@
     ],
     "base": {
       "HP": 30,
-      "Attack": 35,
-      "Defense": 30,
-      "Sp. Attack": 100,
-      "Sp. Defense": 35,
-      "Speed": 80
+      "ATK": 35,
+      "DEF": 30,
+      "SpA": 100,
+      "SpD": 35,
+      "SPD": 80
     },
     "height": "1.30 m",
     "weight": "0.1 kg",
@@ -3287,11 +3287,11 @@
     ],
     "base": {
       "HP": 45,
-      "Attack": 50,
-      "Defense": 45,
-      "Sp. Attack": 115,
-      "Sp. Defense": 55,
-      "Speed": 95
+      "ATK": 50,
+      "DEF": 45,
+      "SpA": 115,
+      "SpD": 55,
+      "SPD": 95
     },
     "height": "1.60 m",
     "weight": "0.1 kg",
@@ -3328,11 +3328,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 65,
-      "Defense": 60,
-      "Sp. Attack": 130,
-      "Sp. Defense": 75,
-      "Speed": 110
+      "ATK": 65,
+      "DEF": 60,
+      "SpA": 130,
+      "SpD": 75,
+      "SPD": 110
     },
     "height": "1.50 m",
     "weight": "40.5 kg",
@@ -3367,11 +3367,11 @@
     ],
     "base": {
       "HP": 35,
-      "Attack": 45,
-      "Defense": 160,
-      "Sp. Attack": 30,
-      "Sp. Defense": 45,
-      "Speed": 70
+      "ATK": 45,
+      "DEF": 160,
+      "SpA": 30,
+      "SpD": 45,
+      "SPD": 70
     },
     "height": "8.79 m",
     "weight": "210.0 kg",
@@ -3397,11 +3397,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 48,
-      "Defense": 45,
-      "Sp. Attack": 43,
-      "Sp. Defense": 90,
-      "Speed": 42
+      "ATK": 48,
+      "DEF": 45,
+      "SpA": 43,
+      "SpD": 90,
+      "SPD": 42
     },
     "height": "0.99 m",
     "weight": "32.4 kg",
@@ -3430,11 +3430,11 @@
     ],
     "base": {
       "HP": 85,
-      "Attack": 73,
-      "Defense": 70,
-      "Sp. Attack": 73,
-      "Sp. Defense": 115,
-      "Speed": 67
+      "ATK": 73,
+      "DEF": 70,
+      "SpA": 73,
+      "SpD": 115,
+      "SPD": 67
     },
     "height": "1.60 m",
     "weight": "75.6 kg",
@@ -3463,11 +3463,11 @@
     ],
     "base": {
       "HP": 30,
-      "Attack": 105,
-      "Defense": 90,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
-      "Speed": 50
+      "ATK": 105,
+      "DEF": 90,
+      "SpA": 25,
+      "SpD": 25,
+      "SPD": 50
     },
     "height": "0.41 m",
     "weight": "6.5 kg",
@@ -3495,11 +3495,11 @@
     ],
     "base": {
       "HP": 55,
-      "Attack": 130,
-      "Defense": 115,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
-      "Speed": 75
+      "ATK": 130,
+      "DEF": 115,
+      "SpA": 50,
+      "SpD": 50,
+      "SPD": 75
     },
     "height": "1.30 m",
     "weight": "60.0 kg",
@@ -3527,11 +3527,11 @@
     ],
     "base": {
       "HP": 40,
-      "Attack": 30,
-      "Defense": 50,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
-      "Speed": 100
+      "ATK": 30,
+      "DEF": 50,
+      "SpA": 55,
+      "SpD": 55,
+      "SPD": 100
     },
     "height": "0.51 m",
     "weight": "10.4 kg",
@@ -3558,11 +3558,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 50,
-      "Defense": 70,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
-      "Speed": 150
+      "ATK": 50,
+      "DEF": 70,
+      "SpA": 80,
+      "SpD": 80,
+      "SPD": 150
     },
     "height": "1.19 m",
     "weight": "66.6 kg",
@@ -3590,11 +3590,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 40,
-      "Defense": 80,
-      "Sp. Attack": 60,
-      "Sp. Defense": 45,
-      "Speed": 40
+      "ATK": 40,
+      "DEF": 80,
+      "SpA": 60,
+      "SpD": 45,
+      "SPD": 40
     },
     "height": "0.41 m",
     "weight": "2.5 kg",
@@ -3628,11 +3628,11 @@
     ],
     "base": {
       "HP": 95,
-      "Attack": 95,
-      "Defense": 85,
-      "Sp. Attack": 125,
-      "Sp. Defense": 75,
-      "Speed": 55
+      "ATK": 95,
+      "DEF": 85,
+      "SpA": 125,
+      "SpD": 75,
+      "SPD": 55
     },
     "height": "2.01 m",
     "weight": "120.0 kg",
@@ -3665,11 +3665,11 @@
     ],
     "base": {
       "HP": 50,
-      "Attack": 50,
-      "Defense": 95,
-      "Sp. Attack": 40,
-      "Sp. Defense": 50,
-      "Speed": 35
+      "ATK": 50,
+      "DEF": 95,
+      "SpA": 40,
+      "SpD": 50,
+      "SPD": 35
     },
     "height": "0.41 m",
     "weight": "6.5 kg",
@@ -3698,11 +3698,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 80,
-      "Defense": 110,
-      "Sp. Attack": 50,
-      "Sp. Defense": 80,
-      "Speed": 45
+      "ATK": 80,
+      "DEF": 110,
+      "SpA": 50,
+      "SpD": 80,
+      "SPD": 45
     },
     "height": "0.99 m",
     "weight": "45.0 kg",
@@ -3731,11 +3731,11 @@
     ],
     "base": {
       "HP": 50,
-      "Attack": 120,
-      "Defense": 53,
-      "Sp. Attack": 35,
-      "Sp. Defense": 110,
-      "Speed": 87
+      "ATK": 120,
+      "DEF": 53,
+      "SpA": 35,
+      "SpD": 110,
+      "SPD": 87
     },
     "height": "1.50 m",
     "weight": "49.8 kg",
@@ -3758,11 +3758,11 @@
     ],
     "base": {
       "HP": 50,
-      "Attack": 105,
-      "Defense": 79,
-      "Sp. Attack": 35,
-      "Sp. Defense": 110,
-      "Speed": 76
+      "ATK": 105,
+      "DEF": 79,
+      "SpA": 35,
+      "SpD": 110,
+      "SPD": 76
     },
     "height": "1.40 m",
     "weight": "50.2 kg",
@@ -3785,11 +3785,11 @@
     ],
     "base": {
       "HP": 90,
-      "Attack": 55,
-      "Defense": 75,
-      "Sp. Attack": 60,
-      "Sp. Defense": 75,
-      "Speed": 30
+      "ATK": 55,
+      "DEF": 75,
+      "SpA": 60,
+      "SpD": 75,
+      "SPD": 30
     },
     "height": "1.19 m",
     "weight": "65.5 kg",
@@ -3810,11 +3810,11 @@
     ],
     "base": {
       "HP": 40,
-      "Attack": 65,
-      "Defense": 95,
-      "Sp. Attack": 60,
-      "Sp. Defense": 45,
-      "Speed": 35
+      "ATK": 65,
+      "DEF": 95,
+      "SpA": 60,
+      "SpD": 45,
+      "SPD": 35
     },
     "height": "0.61 m",
     "weight": "1.0 kg",
@@ -3842,11 +3842,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 90,
-      "Defense": 120,
-      "Sp. Attack": 85,
-      "Sp. Defense": 70,
-      "Speed": 60
+      "ATK": 90,
+      "DEF": 120,
+      "SpA": 85,
+      "SpD": 70,
+      "SPD": 60
     },
     "height": "1.19 m",
     "weight": "9.5 kg",
@@ -3875,11 +3875,11 @@
     ],
     "base": {
       "HP": 80,
-      "Attack": 85,
-      "Defense": 95,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
-      "Speed": 25
+      "ATK": 85,
+      "DEF": 95,
+      "SpA": 30,
+      "SpD": 30,
+      "SPD": 25
     },
     "height": "0.99 m",
     "weight": "115.0 kg",
@@ -3912,11 +3912,11 @@
     ],
     "base": {
       "HP": 105,
-      "Attack": 130,
-      "Defense": 120,
-      "Sp. Attack": 45,
-      "Sp. Defense": 45,
-      "Speed": 40
+      "ATK": 130,
+      "DEF": 120,
+      "SpA": 45,
+      "SpD": 45,
+      "SPD": 40
     },
     "height": "1.91 m",
     "weight": "120.0 kg",
@@ -3948,11 +3948,11 @@
     ],
     "base": {
       "HP": 250,
-      "Attack": 5,
-      "Defense": 5,
-      "Sp. Attack": 35,
-      "Sp. Defense": 105,
-      "Speed": 50
+      "ATK": 5,
+      "DEF": 5,
+      "SpA": 35,
+      "SpD": 105,
+      "SPD": 50
     },
     "height": "1.09 m",
     "weight": "34.6 kg",
@@ -3973,11 +3973,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 55,
-      "Defense": 115,
-      "Sp. Attack": 100,
-      "Sp. Defense": 40,
-      "Speed": 60
+      "ATK": 55,
+      "DEF": 115,
+      "SpA": 100,
+      "SpD": 40,
+      "SPD": 60
     },
     "height": "0.99 m",
     "weight": "35.0 kg",
@@ -4002,11 +4002,11 @@
     ],
     "base": {
       "HP": 105,
-      "Attack": 95,
-      "Defense": 80,
-      "Sp. Attack": 40,
-      "Sp. Defense": 80,
-      "Speed": 90
+      "ATK": 95,
+      "DEF": 80,
+      "SpA": 40,
+      "SpD": 80,
+      "SPD": 90
     },
     "height": "2.21 m",
     "weight": "80.0 kg",
@@ -4027,11 +4027,11 @@
     ],
     "base": {
       "HP": 30,
-      "Attack": 40,
-      "Defense": 70,
-      "Sp. Attack": 70,
-      "Sp. Defense": 25,
-      "Speed": 60
+      "ATK": 40,
+      "DEF": 70,
+      "SpA": 70,
+      "SpD": 25,
+      "SPD": 60
     },
     "height": "0.41 m",
     "weight": "8.0 kg",
@@ -4059,11 +4059,11 @@
     ],
     "base": {
       "HP": 55,
-      "Attack": 65,
-      "Defense": 95,
-      "Sp. Attack": 95,
-      "Sp. Defense": 45,
-      "Speed": 85
+      "ATK": 65,
+      "DEF": 95,
+      "SpA": 95,
+      "SpD": 45,
+      "SPD": 85
     },
     "height": "1.19 m",
     "weight": "25.0 kg",
@@ -4091,11 +4091,11 @@
     ],
     "base": {
       "HP": 45,
-      "Attack": 67,
-      "Defense": 60,
-      "Sp. Attack": 35,
-      "Sp. Defense": 50,
-      "Speed": 63
+      "ATK": 67,
+      "DEF": 60,
+      "SpA": 35,
+      "SpD": 50,
+      "SPD": 63
     },
     "height": "0.61 m",
     "weight": "15.0 kg",
@@ -4123,11 +4123,11 @@
     ],
     "base": {
       "HP": 80,
-      "Attack": 92,
-      "Defense": 65,
-      "Sp. Attack": 65,
-      "Sp. Defense": 80,
-      "Speed": 68
+      "ATK": 92,
+      "DEF": 65,
+      "SpA": 65,
+      "SpD": 80,
+      "SPD": 68
     },
     "height": "1.30 m",
     "weight": "39.0 kg",
@@ -4155,11 +4155,11 @@
     ],
     "base": {
       "HP": 30,
-      "Attack": 45,
-      "Defense": 55,
-      "Sp. Attack": 70,
-      "Sp. Defense": 55,
-      "Speed": 85
+      "ATK": 45,
+      "DEF": 55,
+      "SpA": 70,
+      "SpD": 55,
+      "SPD": 85
     },
     "height": "0.79 m",
     "weight": "34.5 kg",
@@ -4188,11 +4188,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 75,
-      "Defense": 85,
-      "Sp. Attack": 100,
-      "Sp. Defense": 85,
-      "Speed": 115
+      "ATK": 75,
+      "DEF": 85,
+      "SpA": 100,
+      "SpD": 85,
+      "SPD": 115
     },
     "height": "1.09 m",
     "weight": "80.0 kg",
@@ -4224,11 +4224,11 @@
     ],
     "base": {
       "HP": 40,
-      "Attack": 45,
-      "Defense": 65,
-      "Sp. Attack": 100,
-      "Sp. Defense": 120,
-      "Speed": 90
+      "ATK": 45,
+      "DEF": 65,
+      "SpA": 100,
+      "SpD": 120,
+      "SPD": 90
     },
     "height": "1.30 m",
     "weight": "54.5 kg",
@@ -4248,11 +4248,11 @@
     ],
     "base": {
       "HP": 70,
-      "Attack": 110,
-      "Defense": 80,
-      "Sp. Attack": 55,
-      "Sp. Defense": 80,
-      "Speed": 105
+      "ATK": 110,
+      "DEF": 80,
+      "SpA": 55,
+      "SpD": 80,
+      "SPD": 105
     },
     "height": "1.50 m",
     "weight": "56.0 kg",
@@ -4272,11 +4272,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 50,
-      "Defense": 35,
-      "Sp. Attack": 115,
-      "Sp. Defense": 95,
-      "Speed": 95
+      "ATK": 50,
+      "DEF": 35,
+      "SpA": 115,
+      "SpD": 95,
+      "SPD": 95
     },
     "height": "1.40 m",
     "weight": "40.6 kg",
@@ -4295,11 +4295,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 83,
-      "Defense": 57,
-      "Sp. Attack": 95,
-      "Sp. Defense": 85,
-      "Speed": 105
+      "ATK": 83,
+      "DEF": 57,
+      "SpA": 95,
+      "SpD": 85,
+      "SPD": 105
     },
     "height": "1.09 m",
     "weight": "30.0 kg",
@@ -4318,11 +4318,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 95,
-      "Defense": 57,
-      "Sp. Attack": 100,
-      "Sp. Defense": 85,
-      "Speed": 93
+      "ATK": 95,
+      "DEF": 57,
+      "SpA": 100,
+      "SpD": 85,
+      "SPD": 93
     },
     "height": "1.30 m",
     "weight": "44.5 kg",
@@ -4341,11 +4341,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 125,
-      "Defense": 100,
-      "Sp. Attack": 55,
-      "Sp. Defense": 70,
-      "Speed": 85
+      "ATK": 125,
+      "DEF": 100,
+      "SpA": 55,
+      "SpD": 70,
+      "SPD": 85
     },
     "height": "1.50 m",
     "weight": "55.0 kg",
@@ -4364,11 +4364,11 @@
     ],
     "base": {
       "HP": 75,
-      "Attack": 100,
-      "Defense": 95,
-      "Sp. Attack": 40,
-      "Sp. Defense": 70,
-      "Speed": 110
+      "ATK": 100,
+      "DEF": 95,
+      "SpA": 40,
+      "SpD": 70,
+      "SPD": 110
     },
     "height": "1.40 m",
     "weight": "88.4 kg",
@@ -4387,11 +4387,11 @@
     ],
     "base": {
       "HP": 20,
-      "Attack": 10,
-      "Defense": 55,
-      "Sp. Attack": 15,
-      "Sp. Defense": 20,
-      "Speed": 80
+      "ATK": 10,
+      "DEF": 55,
+      "SpA": 15,
+      "SpD": 20,
+      "SPD": 80
     },
     "height": "0.89 m",
     "weight": "10.0 kg",
@@ -4417,11 +4417,11 @@
     ],
     "base": {
       "HP": 95,
-      "Attack": 125,
-      "Defense": 79,
-      "Sp. Attack": 60,
-      "Sp. Defense": 100,
-      "Speed": 81
+      "ATK": 125,
+      "DEF": 79,
+      "SpA": 60,
+      "SpD": 100,
+      "SPD": 81
     },
     "height": "6.50 m",
     "weight": "235.0 kg",
@@ -4447,11 +4447,11 @@
     ],
     "base": {
       "HP": 130,
-      "Attack": 85,
-      "Defense": 80,
-      "Sp. Attack": 85,
-      "Sp. Defense": 95,
-      "Speed": 60
+      "ATK": 85,
+      "DEF": 80,
+      "SpA": 85,
+      "SpD": 95,
+      "SPD": 60
     },
     "height": "2.49 m",
     "weight": "220.0 kg",
@@ -4470,11 +4470,11 @@
     ],
     "base": {
       "HP": 48,
-      "Attack": 48,
-      "Defense": 48,
-      "Sp. Attack": 48,
-      "Sp. Defense": 48,
-      "Speed": 48
+      "ATK": 48,
+      "DEF": 48,
+      "SpA": 48,
+      "SpD": 48,
+      "SPD": 48
     },
     "height": "0.30 m",
     "weight": "4.0 kg",
@@ -4493,11 +4493,11 @@
     ],
     "base": {
       "HP": 55,
-      "Attack": 55,
-      "Defense": 50,
-      "Sp. Attack": 45,
-      "Sp. Defense": 65,
-      "Speed": 55
+      "ATK": 55,
+      "DEF": 50,
+      "SpA": 45,
+      "SpD": 65,
+      "SPD": 55
     },
     "height": "0.30 m",
     "weight": "6.5 kg",
@@ -4530,11 +4530,11 @@
     ],
     "base": {
       "HP": 130,
-      "Attack": 65,
-      "Defense": 60,
-      "Sp. Attack": 110,
-      "Sp. Defense": 95,
-      "Speed": 65
+      "ATK": 65,
+      "DEF": 60,
+      "SpA": 110,
+      "SpD": 95,
+      "SPD": 65
     },
     "height": "0.99 m",
     "weight": "29.0 kg",
@@ -4559,11 +4559,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 65,
-      "Defense": 60,
-      "Sp. Attack": 110,
-      "Sp. Defense": 95,
-      "Speed": 130
+      "ATK": 65,
+      "DEF": 60,
+      "SpA": 110,
+      "SpD": 95,
+      "SPD": 130
     },
     "height": "0.79 m",
     "weight": "24.5 kg",
@@ -4588,11 +4588,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 130,
-      "Defense": 60,
-      "Sp. Attack": 95,
-      "Sp. Defense": 110,
-      "Speed": 65
+      "ATK": 130,
+      "DEF": 60,
+      "SpA": 95,
+      "SpD": 110,
+      "SPD": 65
     },
     "height": "0.89 m",
     "weight": "25.0 kg",
@@ -4617,11 +4617,11 @@
     ],
     "base": {
       "HP": 65,
-      "Attack": 60,
-      "Defense": 70,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
-      "Speed": 40
+      "ATK": 60,
+      "DEF": 70,
+      "SpA": 85,
+      "SpD": 75,
+      "SPD": 40
     },
     "height": "0.79 m",
     "weight": "36.5 kg",
@@ -4641,11 +4641,11 @@
     ],
     "base": {
       "HP": 35,
-      "Attack": 40,
-      "Defense": 100,
-      "Sp. Attack": 90,
-      "Sp. Defense": 55,
-      "Speed": 35
+      "ATK": 40,
+      "DEF": 100,
+      "SpA": 90,
+      "SpD": 55,
+      "SPD": 35
     },
     "height": "0.41 m",
     "weight": "7.5 kg",
@@ -4671,11 +4671,11 @@
     ],
     "base": {
       "HP": 70,
-      "Attack": 60,
-      "Defense": 125,
-      "Sp. Attack": 115,
-      "Sp. Defense": 70,
-      "Speed": 55
+      "ATK": 60,
+      "DEF": 125,
+      "SpA": 115,
+      "SpD": 70,
+      "SPD": 55
     },
     "height": "0.99 m",
     "weight": "35.0 kg",
@@ -4701,11 +4701,11 @@
     ],
     "base": {
       "HP": 30,
-      "Attack": 80,
-      "Defense": 90,
-      "Sp. Attack": 55,
-      "Sp. Defense": 45,
-      "Speed": 55
+      "ATK": 80,
+      "DEF": 90,
+      "SpA": 55,
+      "SpD": 45,
+      "SPD": 55
     },
     "height": "0.51 m",
     "weight": "11.5 kg",
@@ -4731,11 +4731,11 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 115,
-      "Defense": 105,
-      "Sp. Attack": 65,
-      "Sp. Defense": 70,
-      "Speed": 80
+      "ATK": 115,
+      "DEF": 105,
+      "SpA": 65,
+      "SpD": 70,
+      "SPD": 80
     },
     "height": "1.30 m",
     "weight": "40.5 kg",
@@ -4761,11 +4761,11 @@
     ],
     "base": {
       "HP": 80,
-      "Attack": 105,
-      "Defense": 65,
-      "Sp. Attack": 60,
-      "Sp. Defense": 75,
-      "Speed": 130
+      "ATK": 105,
+      "DEF": 65,
+      "SpA": 60,
+      "SpD": 75,
+      "SPD": 130
     },
     "height": "1.80 m",
     "weight": "59.0 kg",
@@ -4784,11 +4784,11 @@
     ],
     "base": {
       "HP": 160,
-      "Attack": 110,
-      "Defense": 65,
-      "Sp. Attack": 65,
-      "Sp. Defense": 110,
-      "Speed": 30
+      "ATK": 110,
+      "DEF": 65,
+      "SpA": 65,
+      "SpD": 110,
+      "SPD": 30
     },
     "height": "2.11 m",
     "weight": "460.0 kg",
@@ -4808,11 +4808,11 @@
     ],
     "base": {
       "HP": 90,
-      "Attack": 85,
-      "Defense": 100,
-      "Sp. Attack": 95,
-      "Sp. Defense": 125,
-      "Speed": 85
+      "ATK": 85,
+      "DEF": 100,
+      "SpA": 95,
+      "SpD": 125,
+      "SPD": 85
     },
     "height": "1.70 m",
     "weight": "55.4 kg",
@@ -4832,11 +4832,11 @@
     ],
     "base": {
       "HP": 90,
-      "Attack": 90,
-      "Defense": 85,
-      "Sp. Attack": 125,
-      "Sp. Defense": 90,
-      "Speed": 100
+      "ATK": 90,
+      "DEF": 85,
+      "SpA": 125,
+      "SpD": 90,
+      "SPD": 100
     },
     "height": "1.60 m",
     "weight": "52.6 kg",
@@ -4856,11 +4856,11 @@
     ],
     "base": {
       "HP": 90,
-      "Attack": 100,
-      "Defense": 90,
-      "Sp. Attack": 125,
-      "Sp. Defense": 85,
-      "Speed": 90
+      "ATK": 100,
+      "DEF": 90,
+      "SpA": 125,
+      "SpD": 85,
+      "SPD": 90
     },
     "height": "2.01 m",
     "weight": "60.0 kg",
@@ -4879,11 +4879,11 @@
     ],
     "base": {
       "HP": 41,
-      "Attack": 64,
-      "Defense": 45,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
-      "Speed": 50
+      "ATK": 64,
+      "DEF": 45,
+      "SpA": 50,
+      "SpD": 50,
+      "SPD": 50
     },
     "height": "1.80 m",
     "weight": "3.3 kg",
@@ -4912,11 +4912,11 @@
     ],
     "base": {
       "HP": 61,
-      "Attack": 84,
-      "Defense": 65,
-      "Sp. Attack": 70,
-      "Sp. Defense": 70,
-      "Speed": 70
+      "ATK": 84,
+      "DEF": 65,
+      "SpA": 70,
+      "SpD": 70,
+      "SPD": 70
     },
     "height": "3.99 m",
     "weight": "16.5 kg",
@@ -4948,11 +4948,11 @@
     ],
     "base": {
       "HP": 91,
-      "Attack": 134,
-      "Defense": 95,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
-      "Speed": 80
+      "ATK": 134,
+      "DEF": 95,
+      "SpA": 100,
+      "SpD": 100,
+      "SPD": 80
     },
     "height": "2.21 m",
     "weight": "210.0 kg",
@@ -4981,11 +4981,11 @@
     ],
     "base": {
       "HP": 106,
-      "Attack": 110,
-      "Defense": 90,
-      "Sp. Attack": 154,
-      "Sp. Defense": 90,
-      "Speed": 130
+      "ATK": 110,
+      "DEF": 90,
+      "SpA": 154,
+      "SpD": 90,
+      "SPD": 130
     },
     "height": "2.01 m",
     "weight": "122.0 kg",
@@ -5004,11 +5004,11 @@
     ],
     "base": {
       "HP": 100,
-      "Attack": 100,
-      "Defense": 100,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
-      "Speed": 100
+      "ATK": 100,
+      "DEF": 100,
+      "SpA": 100,
+      "SpD": 100,
+      "SPD": 100
     },
     "height": "0.41 m",
     "weight": "4.0 kg",
