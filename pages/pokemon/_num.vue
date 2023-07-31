@@ -80,26 +80,71 @@
           </div>
           <p class="pokemon-description">Evolution</p>
           <div class="pokemon-statistics">
-            <!-- Previous Evolution -->
-            <div v-if="pokedex.prev_evolution">
-              <p class="evolution-title">Previous Evolution</p>
+            <div v-if="pokedex.prev_evolution" class="pokemon-evolution">
               <div
-                v-for="prevEvolution in pokedex.prev_evolution"
-                :key="prevEvolution.num"
-                class="evolution-info"
+                v-for="(prev, index) in pokedex.prev_evolution"
+                :key="index"
+                class="pokemon-evolution-prev"
               >
-                <p class="evolution-name">{{ prevEvolution.name.english }}</p>
-                <img
-                  :src="
-                    '/images/' +
-                    prevEvolution.num +
-                    prevEvolution.name +
-                    '.png'
-                  "
-                  :alt="prevEvolution.name"
-                  class="evolution-image"
-                />
+              <NuxtLink :to="'/pokemon/' + prev.num">
 
+                <div class="pokemon-evolution-information">
+                  <img
+                    class="pokemon-evolution-image"
+                    :src="'/images/' + prev.num + prev.name + '.png'"
+                    alt=""
+                  />
+                  <p class="pokemon-evolution-name">{{ prev.name }}</p>
+                </div>
+              </NuxtLink>
+
+                <img
+                  class="pokemon-evolution-arrow"
+                  src="/images/arrow.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              v-if="pokedex.prev_evolution || pokedex.next_evolution"
+              class="pokemon-evolution"
+            >
+              <div class="pokemon-evolution-information">
+                <img
+                  class="pokemon-evolution-image"
+                  :src="
+                    '/images/' + pokedex.num + pokedex.name.english + '.png'
+                  "
+                  alt=""
+                />
+                <p class="pokemon-evolution-name">{{ pokedex.name.english }}</p>
+              </div>
+            </div>
+
+            <!-- Affichage des Pokémon suivants (next_evolution) -->
+            <!-- <img v-if="pokedex.next_evolution" class="pokemon-evolution-arrow" src="/images/arrow.png" alt=""/> -->
+
+            <div v-if="pokedex.next_evolution" class="pokemon-evolution">
+              <div
+                v-for="(next, index) in pokedex.next_evolution"
+                :key="index"
+                class="pokemon-evolution-next"
+              >
+                <img
+                  class="pokemon-evolution-arrow"
+                  src="/images/arrow.png"
+                  alt=""
+                />
+                <NuxtLink :to="'/pokemon/' + next.num">
+                  <div class="pokemon-evolution-information">
+                    <img
+                      class="pokemon-evolution-image"
+                      :src="'/images/' + next.num + next.name + '.png'"
+                      alt=""
+                    />
+                    <p class="pokemon-evolution-name">{{ next.name }}</p>
+                  </div>
+                </NuxtLink>
               </div>
             </div>
           </div>
@@ -127,18 +172,18 @@ export default {
   },
   data() {
     return {
-      id: null,
+      num: null,
     };
   },
   created() {
-    this.id = this.$route.params.id;
+    this.num = this.$route.params.num;
   },
   computed: {
     pokedex() {
-      return this.$store.state.pokedex[this.id];
+      return this.$store.state.pokedex.find((pokemon) => pokemon.num === this.num);
     },
   },
-  
+
   async mounted() {
     await this.$store.dispatch("fetchPokedex");
   },
@@ -152,7 +197,7 @@ export default {
     height: 100vh;
     padding: 60px 40px;
     box-sizing: border-box;
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 992px) {
       min-height: 100vh;
       padding: 30px 20px;
       height: auto;
@@ -199,13 +244,13 @@ export default {
     position: relative;
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     box-sizing: border-box;
     padding-right: 90px;
     @media screen and (max-width: 992px) {
       width: 100%;
-      align-items: center;
+      align-items: start;
       justify-content: center;
       flex-direction: column;
       padding-right: 0;
@@ -215,7 +260,7 @@ export default {
     position: absolute;
     font-size: 120px;
     font-weight: bold;
-    top: 10%;
+    top: 23%;
     left: 5%;
     font-family: "Nanum", sans-serif;
     opacity: 0.7;
@@ -225,11 +270,12 @@ export default {
       font-size: 80px;
     }
     @media screen and (max-width: 992px) {
-      position: relative;
-      font-size: 46px;
+      font-size: 42px;
       top: auto;
-      right: auto;
+      left: 240px;
       margin-bottom: 20px;
+      writing-mode: vertical-rl;
+      width: fit-content;
     }
   }
   &-image {
@@ -250,18 +296,25 @@ export default {
     box-sizing: border-box;
     @media screen and (max-width: 992px) {
       width: 100%;
+      padding-left: 0;
     }
   }
   &-type {
-    margin: 30px 0;
+    margin: 15px 0;
   }
 
   &-pintype {
     margin: 0 10px;
+    width: 60px;
+    height: 60px;
+    @media screen and (max-width: 992px) {
+      width: 50px;
+      height: 50px;
+    }
   }
   &-description {
     color: white;
-    margin-bottom: 26px;
+    margin-bottom: 24px;
     font-weight: bold;
     font-size: 32px;
     margin-top: 12px;
@@ -277,10 +330,9 @@ export default {
   &-measurement {
     padding: 9px 30px;
     text-align: center;
-    margin: 10px 0 0 0;
     border-radius: 12px;
     font-weight: bold;
-    margin: 12px;
+    margin: 6px;
     color: white;
   }
   &-statistics {
@@ -290,6 +342,9 @@ export default {
     margin-bottom: 12px;
     position: relative;
     padding-left: 12px;
+    @media screen and (max-width: 992px) {
+      padding-left: 0;
+    }
     &::before {
       content: "";
       display: block;
@@ -303,6 +358,9 @@ export default {
       position: absolute;
       border-radius: 2px;
       height: 100%;
+      @media screen and (max-width: 992px) {
+        display: none;
+      }
     }
   }
   &-stats {
@@ -316,6 +374,7 @@ export default {
     width: 36px;
     color: white;
     font-weight: bold;
+
     &-name {
       border-radius: 50%;
       width: 34px;
@@ -349,8 +408,10 @@ export default {
     font-weight: bold;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+    display: block;
     @media screen and (max-width: 992px) {
       font-size: 14px;
+      display: none;
     }
   }
   &-stat {
@@ -382,6 +443,46 @@ export default {
     color: white;
     font-weight: bold;
     font-size: 36px;
+  }
+  &-evolution {
+    display: flex;
+    flex-direction: row;
+    &-image {
+      width: 80px;
+      height: 80px;
+      @media screen and (max-width: 992px) {
+        width: 70px;
+        height: 70px;
+      }
+    }
+    &-arrow {
+      width: 20px;
+      height: 20px;
+      margin: 0 10px;
+      rotate: 180deg;
+    }
+    &-name {
+      font-weight: bold;
+      color: white;
+      margin-top: 6px;
+    }
+    &-prev {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    &-next {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    &-information {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
   }
 }
 </style>
