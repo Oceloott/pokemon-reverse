@@ -64,16 +64,12 @@ export default {
       type: String,
       required: true,
     },
-    pokemonLink: {
-      type: Number,
-      required: true,
-    },
     randomHeight: {
       type: String,
       required: true,
     },
     randomStats: {
-      type: Array,
+      type: Object,
       required: true,
     },
     randomWeaknesses: {
@@ -90,10 +86,10 @@ export default {
     },
     randomId: {
       type: Number,
-      required: true,
+      required: false,
     },
     randomNum: {
-      type: Number,
+      type: String,
       required: true,
     },
     randomName: {

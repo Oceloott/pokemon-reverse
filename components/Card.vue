@@ -15,7 +15,7 @@
       </p>
       </div>
       <div class="pokedex-pokemon">
-        <img class="pokedex-image" :src="pokemonImage" :alt="name" />
+        <img class="pokedex-image" :src="pokemonImage" :alt="pokemonName" />
       </div>
     </div>
   </NuxtLink>
@@ -30,12 +30,12 @@ export default {
       required: true,
     },
     pokemonLink: {
-      type: Number,
+      type: String,
       required: true,
     },
     id: {
       type: Number,
-      required: true,
+      required: false,
     },
     pokemonNum: {
       type: String,

@@ -1,0 +1,25 @@
+@mixin generate-pokemon-button($elements) {
+    @each $element in $elements {
+        #{$prefixClass}#{$element} {
+            color: var(#{$prefix}#{$element});
+            border: var(#{$prefix}#{$element}) 2px solid;
+        // Ajoutez d'autres styles selon vos besoins
+        &:hover{
+            background-color: var(#{$prefix}#{$element});
+            color: white;
+        }
+        &[active="true"]{
+            background-color: var(#{$prefix}#{$element});
+            color: white;
+        }
+      }
+    }
+  }
+  
+  // Définir votre propre liste de sélecteurs
+  $prefix: "--";
+  $prefixClass: ".pokedex-elements-button--";
+  $pokemon-type: "grass", "fire", "water","poison", "flying", "bug","normal", "electric", "ground","fairy", "fighting", "psychic","rock", "steel", "ghost", "dragon", "ice";
+  
+  // Inclusion du mixin avec la liste de sélecteurs personnalisée
+  @include generate-pokemon-button($pokemon-type);
