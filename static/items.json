@@ -1,0 +1,262 @@
+[
+  {
+    "id":1,
+    "type":"Pokeballs",
+    "description":"The best Ball with the ultimate level of performance. It will catch any wild Pokémon without fail.",
+    "name":{
+      "japanese":"マスターボール",
+      "english":"Master Ball",
+      "chinese":"大师球"
+    }
+  },
+  {
+    "id":2,
+    "type":"Pokeballs",
+    "description":"An ultra-performance Ball that provides a higher Pokémon catch rate than a Great Ball.",
+    "name":{
+      "japanese":"ハイパーボール",
+      "english":"Ultra Ball",
+      "chinese":"高级球"
+    }
+  },
+  {
+    "id":3,
+    "type":"Pokeballs",
+    "description":"A good, high-performance Ball that provides a higher Pokémon catch rate than a standard Poké Ball.",
+    "name":{
+      "english":"Great Ball",
+      "japanese":"スーパーボール",
+      "chinese":"超级球"
+    }
+  },
+  {
+    "id":4,
+    "type":"Pokeballs",
+    "description":"A device for catching wild Pokémon. It is thrown like a ball at the target. It is designed as a capsule system.",
+    "name":{
+      "japanese":"モンスターボール",
+      "english":"Poké Ball",
+      "chinese":"精灵球"
+    }
+  },
+  {
+    "id":5,
+    "type":"Pokeballs",
+    "description":"A special Poké Ball that is used only in the Great Marsh. It is decorated in a camouflage pattern.",
+    "name":{
+      "english":"Safari Ball",
+      "japanese":"サファリボール",
+      "chinese":"狩猎球"
+    }
+  },
+  {
+    "id":6,
+    "type":"Pokeballs",
+    "description":"A somewhat different Poké Ball that works especially well on Water- and Bug-type Pokémon.",
+    "name":{
+      "japanese":"ネットボール",
+      "english":"Net Ball",
+      "chinese":"捕网球"
+    }
+  },
+  {
+    "id":7,
+    "type":"Pokeballs",
+    "description":"A somewhat different Poké Ball that works especially well on Pokémon that live underwater.",
+    "name":{
+      "english":"Dive Ball",
+      "japanese":"ダイブボール",
+      "chinese":"潜水球"
+    }
+  },
+  {
+    "id":8,
+    "type":"Pokeballs",
+    "description":"A somewhat different Poké Ball that works especially well on weaker Pokémon in the wild.",
+    "name":{
+      "english":"Nest Ball",
+      "japanese":"ネストボール",
+      "chinese":"巢穴球"
+    }
+  },
+  {
+    "id":9,
+    "type":"Pokeballs",
+    "description":"A somewhat different Poké Ball that works especially well on Pokémon species that were previously caught.",
+    "name":{
+      "japanese":"リピートボール",
+      "english":"Repeat Ball",
+      "chinese":"重复球"
+    }
+  },
+  {
+    "id":10,
+    "type":"Pokeballs",
+    "description":"A somewhat different BALL that becomes progressively better the more turns there are in a battle.",
+    "name":{
+      "chinese":"计时球",
+      "japanese":"タイマーボール",
+      "english":"Timer Ball"
+    }
+  },
+  {
+    "id":11,
+    "type":"Pokeballs",
+    "description":"A comfortable Poké Ball that makes a caught wild Pokémon quickly grow friendly.",
+    "name":{
+      "chinese":"豪华球",
+      "english":"Luxury Ball",
+      "japanese":"ゴージャスボール"
+    }
+  },
+  {
+    "id":12,
+    "type":"Pokeballs",
+    "description":"A somewhat rare Poké Ball that has been specially made to commemorate an event of some sort.",
+    "name":{
+      "japanese":"プレミアボール",
+      "english":"Premier Ball",
+      "chinese":"纪念球"
+    }
+  },
+  {
+    "id":13,
+    "type":"Pokeballs",
+    "description":"A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places like caves.",
+    "name":{
+      "english":"Dusk Ball",
+      "japanese":"ダークボール",
+      "chinese":"黑暗球"
+    }
+  },
+  {
+    "id":14,
+    "type":"Pokeballs",
+    "description":"A remedial Poké Ball that restores the caught Pokémon's HP and eliminates any status problem.",
+    "name":{
+      "chinese":"治愈球",
+      "english":"Heal Ball",
+      "japanese":"ヒールボール"
+    }
+  },
+  {
+    "id":15,
+    "type":"Pokeballs",
+    "description":"A somewhat different Poké Ball that provides a better catch rate if it is used at the start of a wild encounter.",
+    "name":{
+      "chinese":"先机球",
+      "english":"Quick Ball",
+      "japanese":"クイックボール"
+    }
+  },
+  {
+    "id":16,
+    "type":"Pokeballs",
+    "description":"A quite rare Poké Ball that has been specially crafted to commemorate an occasion of some sort.",
+    "name":{
+      "english":"Cherish Ball",
+      "japanese":"プレジャスボール",
+      "chinese":"贵重球"
+    }
+  },
+  {
+    "id":17,
+    "type":"Medicine",
+    "description":"Restores 20 HP.",
+    "name":{
+      "japanese":"キズぐすり",
+      "english":"Potion",
+      "chinese":"伤药"
+    }
+  },
+  {
+    "id":18,
+    "type":"Medicine",
+    "description":"A spray-type medicine. It lifts the effect of poison from one Pokémon.",
+    "name":{
+      "chinese":"解毒药",
+      "japanese":"どくけし",
+      "english":"Antidote"
+    }
+  },
+  {
+    "id":19,
+    "type":"Medicine",
+    "description":"A spray-type medicine. It heals a single Pokémon that is suffering from a burn.",
+    "name":{
+      "japanese":"やけどなおし",
+      "english":"Burn Heal",
+      "chinese":"灼伤药"
+    }
+  },
+  {
+    "id":20,
+    "type":"Medicine",
+    "description":"A spray-type medicine. It defrosts a Pokémon that has been frozen solid.",
+    "name":{
+      "chinese":"解冻药",
+      "japanese":"こおりなおし",
+      "english":"Ice Heal"
+    }
+  },
+  {
+    "id":21,
+    "type":"Medicine",
+    "description":"A spray-type medicine. It awakens a Pokémon from the clutches of sleep.",
+    "name":{
+      "english":"Awakening",
+      "japanese":"ねむけざまし",
+      "chinese":"解眠药"
+    }
+  },
+  {
+    "id":22,
+    "type":"Medicine",
+    "description":"A spray-type medicine. It eliminates paralysis from a single Pokémon.",
+    "name":{
+      "english":"Paralyze Heal",
+      "japanese":"まひなおし",
+      "chinese":"解麻药"
+    }
+  },
+  {
+    "id":23,
+    "type":"Medicine",
+    "description":"A medicine that fully restores the HP and heals any status problems of a single Pokémon.",
+    "name":{
+      "japanese":"かいふくのくすり",
+      "english":"Full Restore",
+      "chinese":"全复药"
+    }
+  },
+  {
+    "id":24,
+    "type":"Medicine",
+    "description":"Fully restores HP.",
+    "name":{
+      "japanese":"まんたんのくすり",
+      "english":"Max Potion",
+      "chinese":"全满药"
+    }
+  },
+  {
+    "id":25,
+    "type":"Medicine",
+    "description":"Restores 120 HP.",
+    "name":{
+      "chinese":"厉害伤药",
+      "japanese":"すごいキズぐすり",
+      "english":"Hyper Potion"
+    }
+  },
+  {
+    "id":26,
+    "type":"Medicine",
+    "description":"Restores 60 HP.",
+    "name":{
+      "english":"Super Potion",
+      "japanese":"いいキズぐすり",
+      "chinese":"好伤药"
+    }
+  }
+]
