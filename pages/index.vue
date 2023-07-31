@@ -34,7 +34,7 @@
             :pokemonName="pokemon.name.english"
             :pokemonClass="pokemon.type[0].toLowerCase()"
             :pokemonTypes="pokemon.type"
-            :pokemonLink="pokemon.id - 1"
+            :pokemonLink="pokemon.num"
           />
         </div>
       </div>
