@@ -1,18 +1,17 @@
 <template>
-  <div class="navbar"  :class="{ 'navbar-open': isNavbarOpen }">
-    <a class="navbar-link navbar-link-home" href="#"
-      ><img class="navbar-link-image" src="/images/pokeballheader.png" alt=""
-    /></a>
-    <a class="navbar-link" href="#">Pokedex</a>
-    <a class="navbar-link" href="#">Compétence</a>
-    <a class="navbar-link" href="#">Items</a>
-    <a class="navbar-link" href="#">Map</a>
+  <div class="navbar" :class="{ 'navbar-open': isNavbarOpen }">
+    <NuxtLink class="navbar-link navbar-link-home" to="/">
+      <img class="navbar-link-image" src="/images/pokeballheader.png" alt="" />
+    </NuxtLink>
+    <NuxtLink class="navbar-link" to="/">Pokedex</NuxtLink>
+    <NuxtLink class="navbar-link" to="skills">Skills</NuxtLink>
+    <NuxtLink class="navbar-link" to="items">Items</NuxtLink>
     <a
       href="javascript:void(0);"
       class="navbar-link-icon"
-      @click="toggleNavbar"
+      @click="toggleNavbar()"
     >
-      <img src="/images/menubars.svg" alt="" />
+      <img src="/images/menubars.svg" alt="menu bars" />
     </a>
   </div>
 </template>
@@ -36,8 +35,10 @@ export default {
 .navbar {
   overflow: hidden;
   background-color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   margin-bottom: 24px;
+  margin-top: 36px;
   border-radius: 24px;
   padding: 0 24px;
   height: 70px;
@@ -60,12 +61,12 @@ export default {
     }
     &:hover {
       border-bottom: solid 2px #ff5350;
-      color: #ff5350;
+      background-color: rgba(255, 83, 80, 0.115);
       @media screen and (max-width: 992px) {
         border-bottom: none;
       }
     }
-    
+
     &-home {
       display: flex;
       justify-content: center;
@@ -73,6 +74,8 @@ export default {
       padding: 15px;
       &:hover {
         border-bottom: 0;
+        background-color: white;
+
       }
     }
     &-image {
@@ -95,16 +98,15 @@ export default {
       }
     }
   }
-  &-open{
+  &-open {
     flex-direction: column;
-    & .navbar-link{
-        float: none;
-        display: block;
-        text-align: left;
-        &-home{
+    & .navbar-link {
+      float: none;
+      display: block;
+      text-align: left;
+      &-home {
         justify-content: left;
-
-        }
+      }
     }
   }
 }

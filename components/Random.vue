@@ -1,8 +1,10 @@
 <template>
   <div class="random" :class="'bg-' + randomClass">
     <img class="random-image" :src="randomImage" :alt="randomName" />
+    <!-- info pokemon -->
     <p class="random-num">#{{ randomNum }}</p>
     <p class="random-name">{{ randomName }}</p>
+    <!-- typelist of pokemon -->
     <div class="random-types">
       <p
         class="random-type"
@@ -13,6 +15,7 @@
         {{ type }}
       </p>
     </div>
+    <!-- height and weight -->
     <div class="random-informations">
       <p
         class="random-information"
@@ -27,6 +30,7 @@
         {{ randomWeight }}
       </p>
     </div>
+    <!-- weaknesses -->
     <p class="random-weaknesse">WEAKNESSES</p>
     <div class="random-weaknesses">
       <img
@@ -37,6 +41,7 @@
         :alt="weaknesse"
       />
     </div>
+    <!-- pokemon stats -->
     <p class="random-weaknesse">STATS</p>
     <div class="random-weaknesses">
       <div
@@ -53,7 +58,6 @@
         </span>
       </div>
     </div>
-    <!-- evoolution -->
   </div>
 </template>
 

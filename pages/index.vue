@@ -2,7 +2,6 @@
 
 <template>
   <div>
-    <br /><br /><br />
     <div class="container">
       <Header/>
       <div class="pokedex">
@@ -82,7 +81,7 @@ export default {
   computed: {
     // Get pokemon
     pokedex() {
-      return this.$store.state.pokedex;
+      return this.$store.state.pokedex.pokedex;
     },
     // Grab a random pokemon
     randomPokemon() {
@@ -156,6 +155,7 @@ export default {
   }
   // Filter searchbar
   &-search{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -224,22 +224,5 @@ export default {
   }
 }
 // Main container
-.container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0;
-  @media screen and (min-width: 576px) {
-    max-width: 540px;
-  }
-  @media screen and (min-width: 768px) {
-    max-width: 750px;
-  }
-  @media screen and (min-width: 992px) {
-    max-width: 970px;
-  }
-  @media screen and (min-width: 1200px) {
-    max-width: 1170px;
-  }
-}
+
 </style>

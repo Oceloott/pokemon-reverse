@@ -75,4 +75,23 @@ a{
     &--flying{
         color: var(--flying-secondary);
     }
+    
 }
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    @media screen and (min-width: 576px) {
+      max-width: 540px;
+    }
+    @media screen and (min-width: 768px) {
+      max-width: 750px;
+    }
+    @media screen and (min-width: 992px) {
+      max-width: 970px;
+    }
+    @media screen and (min-width: 1200px) {
+      max-width: 1170px;
+    }
+  }

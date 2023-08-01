@@ -4,10 +4,12 @@
     :class="'pokemon-background bg-' + pokedex.type[0].toLowerCase()"
   >
     <div class="pokemon-container">
+      <!-- information pokemon name number -->
       <p class="pokemon-id">#{{ pokedex.num }}</p>
       <h1 class="pokemon-name">{{ pokedex.name.english }}</h1>
       <div class="pokemon-informations">
         <div class="pokemon-left">
+          <!-- japanese name displaying behind -->
           <p :class="'pokemon-japanese text--' + pokedex.type[0].toLowerCase()">
             {{ pokedex.name.japanese }}
           </p>
@@ -17,6 +19,7 @@
             alt=""
           />
         </div>
+        <!-- pin of pokemon type -->
         <div class="pokemon-right">
           <div class="pokemon-type">
             <img
@@ -27,7 +30,7 @@
               :alt="type"
             />
           </div>
-
+<!-- weight and height of pokemon -->
           <div class="pokemon-measurements">
             <p
               class="pokemon-measurement"
@@ -46,7 +49,7 @@
               {{ pokedex.weight }}
             </p>
           </div>
-
+<!-- stats of pokemon in bubble -->
           <p class="pokemon-description">Stats</p>
           <div class="pokemon-statistics">
             <div
@@ -68,6 +71,7 @@
               </span>
             </div>
           </div>
+          <!-- pokemon weaknesse pin -->
           <p class="pokemon-description">Weaknesses</p>
           <div class="pokemon-weaknesses">
             <img
@@ -78,6 +82,7 @@
               :alt="weaknesse"
             />
           </div>
+          <!-- evolution and link to pokemon evolution -->
           <p class="pokemon-description">Evolution</p>
           <div class="pokemon-statistics">
             <div v-if="pokedex.prev_evolution" class="pokemon-evolution">
@@ -86,17 +91,16 @@
                 :key="index"
                 class="pokemon-evolution-prev"
               >
-              <NuxtLink :to="'/pokemon/' + prev.num">
-
-                <div class="pokemon-evolution-information">
-                  <img
-                    class="pokemon-evolution-image"
-                    :src="'/images/' + prev.num + prev.name + '.png'"
-                    alt=""
-                  />
-                  <p class="pokemon-evolution-name">{{ prev.name }}</p>
-                </div>
-              </NuxtLink>
+                <NuxtLink :to="'/pokemon/' + prev.num">
+                  <div class="pokemon-evolution-information">
+                    <img
+                      class="pokemon-evolution-image"
+                      :src="'/images/' + prev.num + prev.name + '.png'"
+                      alt=""
+                    />
+                    <p class="pokemon-evolution-name">{{ prev.name }}</p>
+                  </div>
+                </NuxtLink>
 
                 <img
                   class="pokemon-evolution-arrow"
@@ -120,10 +124,6 @@
                 <p class="pokemon-evolution-name">{{ pokedex.name.english }}</p>
               </div>
             </div>
-
-            <!-- Affichage des Pokémon suivants (next_evolution) -->
-            <!-- <img v-if="pokedex.next_evolution" class="pokemon-evolution-arrow" src="/images/arrow.png" alt=""/> -->
-
             <div v-if="pokedex.next_evolution" class="pokemon-evolution">
               <div
                 v-for="(next, index) in pokedex.next_evolution"
@@ -180,7 +180,9 @@ export default {
   },
   computed: {
     pokedex() {
-      return this.$store.state.pokedex.find((pokemon) => pokemon.num === this.num);
+      return this.$store.state.pokedex.pokedex.find(
+        (pokemon) => pokemon.num === this.num
+      );
     },
   },
 

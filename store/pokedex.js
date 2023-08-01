@@ -1,4 +1,3 @@
-// Cette fonction permet de charger le fichier pokedex.json depuis le dossier static
 function loadPokedex() {
   return require('~/static/pokedex.json');
 }
