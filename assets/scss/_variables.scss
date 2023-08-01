@@ -51,7 +51,141 @@
     --flying-secondary: #4d73a5;
 
 }
+.flex{
+    display: flex;
+    &-row{
+        flex-direction: row;
+    }
+}
+.color {
+    &-default{
+        color: #3361bd88;
+    }
+    &-white{
+        color: white;
+    }
+    &-black{
+        color: black;
+    }
+    &-grass {
+        color: var(--grass);
+        &--secondary {
+            color: var(--grass-secondary);
+        }
+    }
 
+    &-fire {
+        color: var(--fire);
+        &--secondary {
+            color: var(--fire-secondary);
+        }
+    }
+
+    &-water {
+        color: var(--water);
+        &--secondary {
+            color: var(--water-secondary);
+        }
+    }
+
+    &-steel {
+        color: var(--steel);
+        &--secondary {
+            color: var(--steel-secondary);
+        }
+    }
+
+    &-bug {
+        color: var(--bug);
+        &--secondary {
+            color: var(--bug-secondary);
+        }
+    }
+
+    &-normal {
+        color: var(--normal);
+        &--secondary {
+            color: var(--normal-secondary);
+        }
+    }
+
+    &-electric {
+        color: var(--electric);
+        &--secondary {
+            color: var(--electric-secondary);
+        }
+    }
+
+    &-poison {
+        color: var(--poison);
+        &--secondary {
+            color: var(--poison-secondary);
+        }
+    }
+
+    &-ground {
+        color: var(--ground);
+        &--secondary {
+            color: var(--ground-secondary);
+        }
+    }
+
+    &-fighting {
+        color: var(--fighting);
+        &--secondary {
+            color: var(--fighting-secondary);
+        }
+    }
+
+    &-psychic {
+        color: var(--psychic);
+        &--secondary {
+            color: var(--psychic-secondary);
+        }
+    }
+
+    &-fairy {
+        color: var(--fairy);
+        &--secondary {
+            color: var(--fairy-secondary);
+        }
+    }
+
+    &-rock {
+        color: var(--rock);
+        &--secondary {
+            color: var(--rock-secondary);
+        }
+    }
+
+    &-ghost {
+        color: var(--ghost);
+        &--secondary {
+            color: var(--ghost-secondary);
+        }
+    }
+
+    &-ice {
+        color: var(--ice);
+        &--secondary {
+            color: var(--ice-secondary);
+        }
+    }
+
+    &-dragon {
+        color: var(--dragon);
+        &--secondary {
+            color: var(--dragon-secondary);
+        }
+    }
+
+    &-flying {
+        color: var(--flying);
+        &--secondary {
+            color: var(--flying-secondary);
+        }
+    }
+}
 .bg {
     &-grass {
         background-color: var(--grass);
