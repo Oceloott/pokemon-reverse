@@ -4,8 +4,8 @@
       <img class="navbar-link-image" src="/images/pokeballheader.png" alt="" />
     </NuxtLink>
     <NuxtLink class="navbar-link" to="/">Pokedex</NuxtLink>
-    <NuxtLink class="navbar-link" to="skills">Skills</NuxtLink>
-    <NuxtLink class="navbar-link" to="items">Items</NuxtLink>
+    <NuxtLink class="navbar-link" to="/skills">Skills</NuxtLink>
+    <NuxtLink class="navbar-link" to="/items">Items</NuxtLink>
     <a
       href="javascript:void(0);"
       class="navbar-link-icon"
@@ -23,6 +23,7 @@ export default {
       isNavbarOpen: false,
     };
   },
+  // toggle active
   methods: {
     toggleNavbar() {
       this.isNavbarOpen = !this.isNavbarOpen;
